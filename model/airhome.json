@@ -1,0 +1,458 @@
+{
+  "sections": [
+    {
+      "section": {
+        "style": "background-color:#F5FBFE",
+        "title": "Overview",
+        "subtitle": "The goal of AirHome is to create a safe and enjoyable flight experience for passengers.",
+        "align_items": "center",
+        "children": [
+          {
+            "container": {
+              "subtitle": "THE PROBLEM",
+              "align_items": "center",
+              "children": [
+                {
+                  "container": {
+                    "direction": "row",
+                    "align_items": "center",
+                    "children": [
+                      {
+                        "container": {
+                          "style": "padding-top: 30px",
+                          "align_items": "center",
+                          "image": "../images/airhome/sexual_harassment2.png",
+                          "image_style": "max-height: 300px;"
+                        }
+                      },
+                      {
+                        "container": {
+                          "subtitle": "Women on airplanes are always overwhelmed and scared when they encounter harassment or unfair treatment.",
+                          "messages": [
+                            "- they are in a small space. ",
+                            "- surrounded by strangers they don't know.",
+                            "- there is no evidence to prove the treatment they have been subjected to."
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "direction": "row",
+                    "children": [
+                      {
+                        "container": {
+                          "style": "padding-top: 30px",
+                          "align_items": "center",
+                          "image": "../images/airhome/sexual_harassment3.png",
+                          "image_style": "max-height: 300px;"
+                        }
+                      },
+                      {
+                        "container": {
+                          "subtitle": "Women on airplanes are always overwhelmed and scared when they encounter harassment or unfair treatment.",
+                          "messages": [
+                            "- they are in a small space. ",
+                            "- surrounded by strangers they don't know.",
+                            "- there is no evidence to prove the treatment they have been subjected to."
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "subtitle": "My Role",
+                    "messages": [
+                      "As a solo UI/UX Designer, I conducted research, designed information architecture, wireframing, ideation, evaluation, visual design, low-high prototyping, and user testing."
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "Tools",
+                    "messages": [
+                      "Figma, photoshop, Illustrator, Miro, Marvels"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "Timeline",
+                    "messages": [
+                      "Four months (Sep 1st, 2021 - Dec 15th, 2021)"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#F5FBFE",
+        "title": "Outcome",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "image": "../images/airhome/outcome1.png",
+              "image_style": "max-height: 200px; max-width: 100%",
+              "subtitle": "Help Center",
+              "messages": [
+                "Enhanced passenger safety"
+              ]
+            }
+          },
+           {
+            "container": {
+              "image": "../images/airhome/outcome2.png",
+              "image_style": "max-height: 200px; max-width: 100%",
+              "subtitle": "Chat Center",
+              "messages": [
+                "Increased the fun and communication between passengers on flights"
+              ]
+            }
+          },
+           {
+            "container": {
+              "image": "../images/airhome/outcome3.png",
+              "image_style": "max-height: 200px; max-width: 100%",
+              "subtitle": "Personalized Profile",
+              "messages": [
+                "Highlighted the characteristics and needs of each passengers "
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Design Approach",
+        "children": [
+          {
+            "container": {
+              "image": "../images/airhome/design_approach.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#F5FBFE",
+        "title": "Interview Results - Flight Passengers",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "image": "../images/airhome/passenger1.png",
+              "image_style": "max-height: 200px; max-width: 100%",
+              "subtitle": "Summer Liu",
+              "messages": [
+                "I want to make some friends who has same interest with me on the airplane."
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/airhome/passenger2.png",
+              "image_style": "max-height: 200px; max-width: 100%",
+              "subtitle": "Jan Wei",
+              "messages": [
+                "When I fall asleep or reading a book, I don’t want other passengers or flight attendants to interrupt me. "
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/airhome/passenger3.png",
+              "image_style": "max-height: 200px; max-width: 100%",
+              "subtitle": "Kelly Zhao",
+              "messages": [
+                "I need a way to report other passengers' behaviors privately and safely."
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#F5FBFE",
+        "title": "Interview Results - Flight Attendants",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "image": "../images/airhome/attendant1.png",
+              "image_style": "max-height: 200px; max-width: 100%",
+              "subtitle": "Mengxue Xu",
+              "messages": [
+                "Serves passengers who don’t know any English was hard. "
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/airhome/attendant2.png",
+              "image_style": "max-height: 200px; max-width: 100%",
+              "subtitle": "Melody",
+              "messages": [
+                "I hope I know passengers better (hobbies, eating habit,disabilities, preferences, moods... ...)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Personas",
+        "children": [
+          {
+            "container": {
+              "image": "../images/airhome/persona1.png"
+            }
+          },
+          {
+            "container": {
+              "image": "../images/airhome/persona2.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#F5FBFE",
+        "title": "POV Framing",
+        "children": [
+          {
+            "container": {
+              "image": "../images/airhome/pov.png"
+            }
+          },
+          {
+            "container": {
+              "children": [
+                {
+                  "container": {
+                    "subtitle": "POV 1",
+                    "messages": [
+                      "- User: Sam from China has been flying by long-haul flights around 5 times a year.",
+                      "- Need: He needs to connect with liked-minded passengers.",
+                      "- Insights: He joined a group chat and added a friend in that group by Airhome chat center, because social bonds are an interesting way to utilize the time on the filght. "
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "POV 2",
+                    "messages": [
+                      "- User: Christina from Korea starts her first-time long-haul flight.",
+                      "- Need: She needs to report other passengers' behaviors privately and safely.",
+                      "- Insights: She reported the passenger who sat next to her with photo evidences by Airhome’s help center, because this is the most comfortable and safest way for her to keep herself safe and get an immediate help."
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "POV 3",
+                    "messages": [
+                      "- User: Rachel from the US has been flying by long-haul flights around three times a year.",
+                      "- Need: She needs only to let flight attendants know she is a disabled single mom.",
+                      "- Insights: She created a personalized profile with tags because this is the most efficient way for her to Show her characteristics"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Key Findings",
+        "children": [
+          {
+            "container": {
+              "align_items": "center",
+              "messages": [
+                "Desirable improvements for long-haul flights"
+              ],
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "subtitle": "User Needs",
+                    "messages": ["- Companionship","- Discover new friends on the plane","- Self-protection","- Accessible Communication","- Privicy in a limit space"]
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "User Goals",
+                    "messages": ["- Join an active chat group","- Add a friend with same interests","- Stay safe","- Get a help directly and quickly","- Not to be disturbed"]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "image_style": "max-height: 250px; max-width: 100%",
+                    "image": "../images/airhome/findings1.png"
+                  }
+                },
+                {
+                  "container": {
+                    "image_style": "max-height: 250px; max-width: 100%",
+                    "image": "../images/airhome/findings2.png"
+                  }
+                },
+                {
+                  "container": {
+                    "image_style": "max-height: 250px; max-width: 100%",
+                    "image": "../images/airhome/findings3.png"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#F5FBFE",
+        "align_items": "center",
+        "title": "Opportunity",
+        "align_items": "center",
+        "subtitle": "How might we create a safe, enjoyable, and accessible flight community for all passengers?"
+      }
+    },
+    {
+      "section": {
+        "title": "Site Map",
+        "align_items": "center",
+        "subtitle": "I generated a site map based on user stories to make sure I stayed focused on the features and screens that were essential.",
+        "children": [
+          {
+            "container": {
+              "image": "../images/airhome/sitemap.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#FFEFF6",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "title": "Report Emergency",
+              "messages": [
+                "- Report an emergency immedetely or submit it with a photo evidence and details.",
+                "- Tell flight attendants the problem details and categories quickly.  ",
+                "- Track your case anytime.",
+                "- Chat with a case assistant if you have any questions."
+              ]
+            }
+          },
+          {
+            "container": {
+              "images": [
+                "../images/airhome/report1.png",
+                "../images/airhome/report2.png",
+                "../images/airhome/report3.png",
+                "../images/airhome/report4.png",
+                "../images/airhome/report5.png"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#FFFCEF",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "images": [
+                "../images/airhome/profile1.png",
+                "../images/airhome/profile2.png",
+                "../images/airhome/profile3.png",
+                "../images/airhome/profile4.png",
+                "../images/airhome/profile5.png"
+              ]
+            }
+          },
+          {
+            "container": {
+              "title": "Personalized Profile",
+              "messages": [
+                "- User has control and freedom to show to public or not",
+                "- Create a personal or social tag for different audience",
+                "- Intuitive navigation"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#F4FFEF",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "title": "Interact with People",
+              "messages": [
+                "The ‘Add’ button which is button clearly visible is a must-have for a networking app"
+              ]
+            }
+          },
+          {
+            "container": {
+              "images": [
+                "../images/airhome/people1.png",
+                "../images/airhome/people2.png",
+                "../images/airhome/people3.png",
+                "../images/airhome/people4.png",
+                "../images/airhome/people5.png"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "image": "../images/airhome/privacy.png"
+      }
+    }
+  ]
+}

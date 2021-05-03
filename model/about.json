@@ -1,0 +1,84 @@
+{
+  "sections": [
+    {
+      "section": {
+        "style": "background-color:#F4EFE4",
+        "children": [
+          {
+            "container": {
+
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/about1.png",
+                    "subtitle": "I would love to share my experiences and stories with you, and let me hear yours as well."
+                  }
+                },
+                {
+                  "container": {
+                    "image": "../images/about2.png"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#f7f7f7",
+        "title": "Design Philosophy",
+        "messages": [
+          "I'm a UX/UI Designer who is passionate about solving problems and bridging the gap between user needs and business strategy."
+        ],
+        "children": [
+          {
+            "container": {
+              "subtitle": "Design Philosophy",
+              "messages": [
+                "I am a critical thinker who wants to create innovative designs.",
+                "I believe in the power of storytelling.",
+                "“Speak the user’s language or be consistent” — Steve Krug",
+                "I design self-evident, usable, useful, efficient, delightful, and memorable websites or mobile apps."
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "image": "../images/about3.png"
+            }
+          },
+          {
+            "container": {
+              "title": "My Story",
+              "messages": [
+                "I'm a UX/UI Designer with a master's in Web Design and New Media from the Academy of Art University, San Francisco. I have a passion for application, web, mobile, and product design.",
+                "I can do creative product design through market research, graphic design, branding, motion graphics, and illustrations. I'm passionate about solving problems and bridging the gap between user needs and business strategy.",
+                "I bring 3+ years of work experience in sales, teaching, and customer service. These experiences sparked my curiosity in UX and led me to pursue this shift through AAU & Springboard.",
+                "I’m ready for new challenges and seeking new adventures. I sincerely look forward to speaking with you about finding my next team. ",
+                "You can find more on",
+                "My portfolio (http://www.jhttps://www.lizhuwei.com/)",
+                "and the most up-to-date work,",
+                "Dribbble (https://dribbble.com/Janelleweiwei)."
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

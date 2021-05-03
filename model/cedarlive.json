@@ -1,0 +1,738 @@
+{
+  "sections": [
+    {
+      "section": {
+        "children": [
+          {
+            "container": {
+              "title": "What's the context?",
+              "messages": [
+                "CedarLive is my capstone project, designed to provide a platform for domain experts and learners for professional learning and career advice."
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_context.png"
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "title": "Tools",
+                    "messages": [
+                      "Figma, Photoshop, Miro, Marvels"
+                    ],
+                    "align_items": "center"
+                  }
+                },
+                {
+                  "container": {
+                    "title": "My Role",
+                    "messages": [
+                      "UI/UX design, design strategy, user research, design handoff"
+                    ],
+                    "align_items": "center"
+                  }
+                },
+                {
+                  "container": {
+                    "title": "Timeline",
+                    "messages": [
+                      "August 1st, 2020 - January 1st, 2021"
+                    ],
+                    "align_items": "center"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#243233",
+        "theme_class": "dark",
+        "direction": "row",
+        "align_child_items": "center",
+        "children": [
+          {
+            "container": {
+              "align_items": "center",
+              "title": "Live-streaming anytime, anywhere",
+              "subtitle": "As a user, you can watch tutorials, inspiring talks, join workshops through CedarLive, the mobile app."
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_glance1.gif"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "direction": "row",
+        "align_child_items": "center",
+        "children": [
+          {
+            "container": {
+              "image": "../images/cedarlive_glance2.gif"
+            }
+          },
+          {
+            "container": {
+              "align_items": "center",
+              "title": "Follow a speaker and get notifications for the future.",
+              "subtitle": "You can follow any speaker you want and get notifications so that you won’t miss this speaker’s future live-streaming."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "direction": "row",
+        "style": "background-color:#243233",
+        "theme_class": "dark",
+        "align_child_items": "center",
+        "children": [
+          {
+            "container": {
+              "align_items": "center",
+              "title": "Post reviews and grow into an expert",
+              "subtitle": "At the same time, upload your works, resume, or portfolio for professional feedbacks and reviews from people in your career fields."
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_glance3.gif"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "children": [
+          {
+            "container": {
+              "title": "How CedarLive was Designed?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "direction": "row",
+        "style": "background-color:#7ec4ad",
+        "theme_class": "dark",
+        "children": [
+          {
+            "container": {
+              "subtitle": "The challenge",
+              "messages": [
+                "The challenge was to stand out from other competitors, build an interactive and safe sharing community through a mobile app that is efficient and delightful in use."
+              ]
+            }
+          },
+          {
+            "container": {
+              "messages": [
+                "Encouraged domain experts and learners to interact anytime and anywhere.",
+                "Improved user engagement and retention rate."
+              ]
+            }
+          },
+          {
+            "container": {
+              "messages": [
+                "Let these two groups of people gain mutual benefits.",
+                "Became an indispensable communication platform in the career fields."
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#243233",
+        "theme_class": "dark",
+        "title": "Discovering The Problem",
+        "messages": [
+          "On the market, there isn't a platform for these two groups of people to gain mutual benefits."
+        ],
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "image": "../images/cedarlive_problem1.png",
+              "subtitle": "Domain Experts",
+              "messages": [
+                "(1) Domain experts do not know where & how to share their expertise."
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_problem2.png",
+              "subtitle": "Learners",
+              "messages": [
+                "(1) Leaners do not know how and where to find an expert who fits their career fields."
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Design Process",
+        "children": [
+          {
+            "container": {
+              "image": "../images/cedarlive_designprocess.png",
+              "messages": [
+                "In order to overcome the above obstacles, I divided my task into three portions: Research, Design, and Test."
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#7ec4ad",
+        "theme_class": "dark",
+        "direction": "row",
+        "title": "Research Plan",
+        "children": [
+          {
+            "container": {
+              "subtitle": "Secondary Research",
+              "messages": [
+                "Conducting literature review to gain insights and make research assumptions.",
+                "(20 Articles)"
+              ]
+            }
+          },
+          {
+            "container": {
+              "subtitle": "Screener Surveys",
+              "messages": [
+                "Allows me to get characteristics of a certain population relatively quickly.",
+                "(3 Competitors)"
+              ]
+            }
+          },
+          {
+            "container": {
+              "subtitle": "Competitive Analysis",
+              "messages": [
+                "In parallel, looking into what’s existing in the product market to see what user needs are overlooked.",
+                "(45 Respondents)"
+              ]
+            }
+          },
+          {
+            "container": {
+              "subtitle": "Interviews",
+              "messages": [
+                "Dive deep into user problems based on survey findings.",
+                "(6 Interviews)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#f7f7f7",
+        "title": "Secondary Research",
+        "messages": [
+          "On the market, there isn't a platform for these two groups of people to gain mutual benefits."
+        ],
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "align_items": "center",
+              "image": "../images/cedarlive_secondary_research1.png",
+              "children": [
+                {
+                  "container": {
+                    "subtitle": "Experts’ Needs",
+                    "messages": [
+                      "- Why? Engrain and expand knowledge, established reputations as an authority, and increase professional value.",
+                      "- How? Becoming a mentor, writing articles, training others, being a resource, and taking the lead."
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "align_items": "center",
+              "image": "../images/cedarlive_secondary_research2.png",
+              "children": [
+                {
+                  "container": {
+                    "subtitle": "Learners’ Frustrations",
+                    "messages": [
+                      "- Arrange from $100 - $150 per hour",
+                      "- Expensive for students and new graduates"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Career Screening Survey",
+        "messages": [
+          ""
+        ],
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "image": "../images/cedarlive_survey1.png",
+              "subtitle": "Do people love to share?",
+              "messages": [
+                "85% of people would love to share their expertise, as well as to learn from others; no matter if they are working professionals, students, or unemployed."
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_survey2.png",
+              "subtitle": "Where do they ususally share to?",
+              "messages": [
+                "Nowadays, people pay high tuition fees to learn at Bootcamp, look for unauthorized and confusing information on search engines, and spend time networking with professionals."
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_survey3.png",
+              "subtitle": "Where makes it harder for people to share?",
+              "messages": [
+                "People with a busy lifestyle, an introverted personality, and who do not know where to find a trusted platform make knowledge sharing harder."
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#7ec4ad",
+        "theme_class": "dark",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "title": "Competitive Analysis",
+              "messages": [
+                "After conducting the secondary research and screener survey, I did a competitive analysis of three similar products: Linkedin, UX Coffee Hour, and Medium. ",
+                "I found out that even though these platforms allow people to connect and learn from each other directly, but they usually come with a monthly fee, time-consuming professional networking, and can not gain knowledge anywhere and anytime."
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_competitive.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Qualitative Research",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "image": "../images/cedarlive_qualitative1.png",
+              "subtitle": "Expert Interview",
+              "messages": [
+                "I talked to three working professionals who had mentorship experience and asked them how they felt about their mentoring experiences using the existing products."
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_qualitative2.png",
+              "subtitle": "Audience Interview",
+              "messages": [
+                "At the same time, I found three students/job seekers looking forward to connecting with professionals and getting feedback on their works/portfolios/resumes. I want to know how they connect with professionals and how was their experiences."
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#7ec4ad;",
+        "theme_class": "dark",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "title": "Affinity Maps",
+              "messages": [
+                "In order to visualize the interviews as a whole and pull out the pertinent parts, I created an affinity map. This time, the data naturally fell into two different categories for different questions I asked during the interview."
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_affinity.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Empathy Maps",
+        "messages": [
+          "I developed empathy maps for each group, using quotes and insights from my qualitative research notes. Also, they helped me formulate the personalities of the personas."
+        ],
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "image": "../images/cedarlive_empathy2.png",
+              "subtitle": "Domain Experts"
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_empathy2.png",
+              "subtitle": "Learners"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#be6f7f;",
+        "theme_class": "dark",
+        "align_items": "center",
+        "title": "Persona",
+        "messages": [
+          "Finally, based on the survey and user interview data I collected through my research, I created two user personas."
+        ]
+      }
+    },
+    {
+      "section": {
+        "children": [
+          {
+            "container": {
+              "image": "../images/cedarlive_persona1.png"
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_persona2.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#be6f7f;",
+        "theme_class": "dark",
+        "title": "Insights"
+      }
+    },
+    {
+      "section": {
+        "image": "../images/cedarlive_insights.png"
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#be6f7f;",
+        "theme_class": "dark",
+        "title": "Key Findings",
+        "messages": [
+          "I learned that while experts and learners have a high level of motivation to connect, they need support to achieve it. The platform should create online career sharing convenient and efficient and allow people to connect using their fragmented rest time."
+        ],
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "subtitle": "Share anytime, anywhere.",
+              "messages": [
+                "The target market users usually have busy lifestyles. Our platform allows them to use a fragment of time to communicate without pressure."
+              ]
+            }
+          },
+          {
+            "container": {
+              "subtitle": "Get professional advice.",
+              "messages": [
+                "Free, efficient, targeted, and professional advice."
+              ]
+            }
+          },
+          {
+            "container": {
+              "subtitle": "Follow and connect.",
+              "messages": [
+                "Whatever it is, the way you tell your story online can make all the difference. Users should gain mutual benefits and grow together."
+              ]
+            }
+          },
+          {
+            "container": {
+              "subtitle": "Build reputation.",
+              "messages": [
+                "Build reputation and domain influence in the career field."
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color: #7ec4ad",
+        "theme_class": "dark",
+        "subtitle": "Opportunity",
+        "align_items": "center",
+        "children": [
+          {
+            "container": {
+              "title": "How might we create a sustainable online career community that can help connect people who need to share or gain knowledge in their areas anytime and anywhere?"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#F7F3F0",
+        "title": "Hypothesis Framing",
+        "children": [
+          {
+            "container": {
+              "image": "../images/cedarlive_hypothesis.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#7ec4ad",
+        "theme_class": "dark",
+        "title": "The Solutions",
+        "children": [
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "subtitle": "Live-streaming anytime, anywhere",
+                    "messages": [
+                      "As a learner, you could be anywhere to watch live streaming, which domain experts hold in your career fields. You could get the most-update new and trending and valuable tips, listening to how experts got their first job and deal with workplace relationships.",
+                      "As an expert, you could share expertise with a large audience and help those who lost in the field of work and build your reputation. ",
+                      "As a positive career community, users only need the time it takes for lunch or a cup of coffee; we learn together and grow together. Through CedarLive, users can easily and quickly learn and communicate."
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "image": "../images/cedarlive_solution1.png"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "image": "../images/cedarlive_solution2.png"
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "Post reviews and grow into an expert",
+                    "messages": [
+                      "As a learner, if you like the speaker and do not want want to miss any live stream she/he holds, simply click “Follow” to get a notification for the future. ",
+                      "As an expert, follow others through CerdarLive and listen to different voices. Share and improve yourself at the same time, there is no end to learning",
+                      "As a positive career community, mentorship is a two-way street, get users to interact and motivate each other to improve."
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "subtitle": "Follow a speaker and get notifications for the future.",
+                    "messages": [
+                      "As a learner, if you like the speaker and do not want want to miss any live stream she/he holds, simply click “Follow” to get a notification for the future. ",
+                      "As an expert, follow others through CerdarLive and listen to different voices. Share and improve yourself at the same time, there is no end to learning.",
+                      "As a positive career community, users can connect and follow others and build a long-time relationship in career."
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "image": "../images/cedarlive_solution3.png"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#efd467;",
+        "theme_class": "dark",
+        "title": "Iterations"
+      }
+    },
+    {
+      "section": {
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "title": "Task 1",
+              "subtitle": "Post a comment during a live-streaming"
+            }
+          },
+          {
+            "container": {
+              "title": "Task 1",
+              "subtitle": "Post a review for other’s work"
+            }
+          },
+          {
+            "container": {
+              "title": "Task 1",
+              "subtitle": "Follow speakers and get future notifications"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "image": "../images/cedarlive_result.png",
+        "title": "Result",
+        "subtitle": "After three weeks of user research, analysis and redesign, I validated the assumptions and changes I had made. I did this by testing my clickable prototype with five new users. The results are:",
+        "messages": [
+          "1. Divided live stream by different categories on the home screen.",
+          "&nbsp; &nbsp; 5 out of 5 users found the category they wanted on the home screen.",
+          "2. Eliminated the condition of error exit live-streaming:",
+          "&nbsp; &nbsp; 4 out of 5 users could get back to the original page if they exited accidentally in 5 seconds.",
+          "3. Followed a speaker in different ways with auto reminding for future notification.",
+          "&nbsp; &nbsp; 5 out of 5 users sent a comment to interact with the speaker in 10 seconds and chose to get future notifications when an instruction move in to guide them.",
+          "4. Reduced repetitive steps to encourage people to complete the post-review process.",
+          "&nbsp; &nbsp; 5 out of 5 users easily submit their reviews and ratings for a work."
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Style guide",
+        "messages": [
+          "- Before turning my low-fidelity wireframes into hi-fidelity mockups, I created a style guide to aid in the visual design process.",
+          "- I wanted the UI of this website to be gentle, eye-catching, and approachable. I chose to go in this direction because while the website's nature is trustworthy and comfortable, I want users to feel relaxed, which would reduce their stress.",
+          "- The logo was inspired by the leaves of the cedar."
+        ],
+        "children": [
+          {
+            "container": {
+              "image": "../images/cedarlive_styleguide1.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#efd467;",
+        "theme_class": "dark",
+        "children": [
+          {
+            "container": {
+              "image": "../images/cedarlive_updated1.png"
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_updated2.png"
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_updated3.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Final Thoughts & Takeaways",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "subtitle": "Next steps.",
+              "messages": [
+                "- If I were to take this project further, I would implement certain high-priority features like my profile-editing, report other users or speakers, and do a few more rounds of A/B testings.",
+                "- Users may come from different countries and speak other languages, so it would be beneficial to design subtitles features in live streaming for users of different nationalities."
+              ]
+            }
+          },
+          {
+            "container": {
+              "subtitle": "Conclusion.",
+              "messages": [
+                "- It made sense to design this app. In this project, I had three user testing rounds, which reflected where users got stuck or what they liked/didn't like about the app. ",
+                "- This project showed me how vital user research and user testing are to create a standout product.",
+                "- I learned a lot about analytics! I learned a lot about analytics! Putting together all the data I've collected from people and guiding me to better designs has taught me to be more intentional in my design process."
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

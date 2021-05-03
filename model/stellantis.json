@@ -1,0 +1,74 @@
+{
+  "sections": [
+    {
+      "section": {
+        "title": "Concept Statement",
+        "subtitle": "Our goal is to create a sustainable society that encourages biodiversity through communal effort and innovative design.",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "image_style": "max-height: 300px;",
+              "image": "../images/stellantis/keywords1.png",
+              "subtitle": "ALLIANCE",
+              "align_items": "center"
+            }
+          },
+          {
+            "container": {
+              "image_style": "max-height: 300px;",
+              "image": "../images/stellantis/keywords2.png",
+              "subtitle": "ENERGETIC",
+              "align_items": "center"
+            }
+          },
+          {
+            "container": {
+              "image_style": "max-height: 300px;",
+              "image": "../images/stellantis/keywords3.png",
+              "subtitle": "REVOLUTIONIZE",
+              "align_items": "center"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#EFEFF0;",
+        "title": "Storyboard",
+        "subtitle": "Our goal is to create a sustainable society that encourages biodiversity through communal effort and innovative design.",
+        "children": [
+          {
+            "container": {
+              "images": [
+                "../images/stellantis/storyboard1.png",
+                "../images/stellantis/storyboard2.png",
+                "../images/stellantis/storyboard3.png"
+              ],
+              "carousel_style": "full_width"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Automotive Exterior Design",
+        "subtitle": "Our goal is to create a sustainable society that encourages biodiversity through communal effort and innovative design.",
+        "children": [
+          {
+            "container": {
+              "images": [
+                "../images/stellantis/exterior1.png",
+                "../images/stellantis/exterior2.png",
+                "../images/stellantis/exterior3.png"
+              ],
+              "carousel_style": "full_width"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

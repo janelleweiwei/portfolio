@@ -1,0 +1,22 @@
+{
+  "sections": [
+    {
+      "section": {
+        "style": "background-color:#7ec4ad",
+        "theme_class": "dark",
+        "children": [
+          {
+            "container": {
+              "title": "title1"
+            }
+          },
+          {
+            "container": {
+              "title": "title2"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

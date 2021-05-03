@@ -1,0 +1,51 @@
+[
+    { 
+      "thumbnail_url": "images/cedarlive.png",
+      "title": "#USER RESEARCH #UX #MOBILE APP #PRODUCT DESIGN",
+      "subtitle": "CedarLive",
+      "description": "Promoted social cohesion in the career community by providing live-streaming and review platforms that create an environment that encourages sharing and gaining professional knowledge.",
+      "link": "views/cedarlive.php"
+    },
+    {
+      "thumbnail_url": "images/gramcity.png",
+      "title": "#DESIGN SPRINT",
+      "subtitle": "GramCity",
+      "description": "Quickly created a high-fidelity prototype of an experience that helps users find the most Instagram-able location based on GramCity’s business goals within five days.",
+      "link": "views/gramcity.php"
+    },
+    { 
+      "thumbnail_url": "images/airhome.png",
+      "title": "#UX #MOBILE APP#SERVICE DESIGN #USER RESEARCH ",
+      "subtitle": "AirHome",
+      "description": "Designed a mobile application for a flight community that helps people to enjoy their flight experience and stay safe all the time. ",
+      "link": "views/airhome.php"
+    },
+    { 
+      "thumbnail_url": "images/opensponsorship.png",
+      "title": "#WEBSITE & MOBILE VERSION #IMPLEMENTATION #REDESIGN",
+      "subtitle": "OpenSponsorship",
+      "description": "Redesigned the sign-up process smoothly and straightforward for athletes and agents.",
+      "link": "https://www.lizhuwei.com/opensponsorship"
+    },
+    { 
+      "thumbnail_url": "images/crunch.png",
+      "title": "#MOBILE VERSION #USER RESEARCH #REDESIGN",  
+      "subtitle": "Crunch App Redesign",
+      "description": "Redesigned the sign-up process smoothly and straightforward for athletes and agents.",
+      "link": "views/cedarlive.php"
+    },
+    { 
+      "thumbnail_url": "images/vw.png",
+      "title": "#AUTO UI #MOBILE APP #HOLOGRAM AUTO UI #SMART HOME #INTERPROFESSIONAL",
+      "subtitle": "Volkswagen",
+      "description": "Designed a sustainable and seamless mobility experience for long-distance travel by mobile app and hologram Auto UI.",
+      "link": "https://www.lizhuwei.com/vw-auto-ui"
+    },
+    { 
+      "thumbnail_url": "images/janstudio.png",
+      "title": "#WEBSITE & MOBILE VERSION #IMPLEMENTATION #E-COMMERCE ",
+      "subtitle": "JanStudio",
+      "description": "Designed and implemented a multi-page interactive website with rich visual elements, using HTML, CSS, JavaScript, PHP, and MySQL.",
+      "link": "views/cedarlive.php"
+    }
+  ]
