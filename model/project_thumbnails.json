@@ -21,31 +21,24 @@
       "link": "views/airhome.php"
     },
     { 
-      "thumbnail_url": "images/opensponsorship.png",
-      "title": "#WEBSITE & MOBILE VERSION #IMPLEMENTATION #REDESIGN",
-      "subtitle": "OpenSponsorship",
-      "description": "Redesigned the sign-up process smoothly and straightforward for athletes and agents.",
-      "link": "https://www.lizhuwei.com/opensponsorship"
+      "thumbnail_url": "images/insitu/thumbnail.png",
+      "title": "#Branding #Website #Ipad ",  
+      "subtitle": "In Situ Branding",
+      "description": "This is a creative redesign project to design a new logo, business card, some merchandise, and collateral. Also, with a redesigned website and an in-store E-menu.",
+      "link": "views/insitu.php"
     },
     { 
-      "thumbnail_url": "images/crunch.png",
-      "title": "#MOBILE VERSION #USER RESEARCH #REDESIGN",  
-      "subtitle": "Crunch App Redesign",
-      "description": "Redesigned the sign-up process smoothly and straightforward for athletes and agents.",
-      "link": "views/cedarlive.php"
-    },
-    { 
-      "thumbnail_url": "images/vw.png",
+      "thumbnail_url": "images/stellantis/thumbnail.png",
       "title": "#AUTO UI #MOBILE APP #HOLOGRAM AUTO UI #SMART HOME #INTERPROFESSIONAL",
-      "subtitle": "Volkswagen",
+      "subtitle": "Gaia (Automobile UI Design)",
       "description": "Designed a sustainable and seamless mobility experience for long-distance travel by mobile app and hologram Auto UI.",
-      "link": "https://www.lizhuwei.com/vw-auto-ui"
+      "link": "views/stellantis.php"
     },
     { 
-      "thumbnail_url": "images/janstudio.png",
-      "title": "#WEBSITE & MOBILE VERSION #IMPLEMENTATION #E-COMMERCE ",
-      "subtitle": "JanStudio",
-      "description": "Designed and implemented a multi-page interactive website with rich visual elements, using HTML, CSS, JavaScript, PHP, and MySQL.",
-      "link": "views/cedarlive.php"
+      "thumbnail_url": "images/filoli.png",
+      "title": "#RESPONSIVE WEBSITE #IMPLEMENTATION #E-COMMERCIAL ",
+      "subtitle": "Filoli Website Redesign",
+      "description": "Designed and implemented a multi-page interactive website with rich visual elements, using HTML, Javascript, and CSS.",
+      "link": "http://www.janelleweiwei.org/aau/wnm601/m15/"
     }
   ]

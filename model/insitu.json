@@ -1,8 +1,417 @@
 {
   "sections": [
     {
-      "container": {
-        
+      "section": {
+        "title": "Introduction",
+        "align_items": "center",
+        "messages": [
+          "In Situ is an exhibition restaurant and collaborative project featuring chefs from around the globe founded by Chef Corey Lee. This project is an individual creative redesign project with a 4-month process to design a new logo, business card, some merchandise, and collateral. Also, the project came with a redesigned website and an in-store E-menu"
+        ],
+        "children": [
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "subtitle": "Project Type",
+                    "messages": [
+                      "Individual school project"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "My Role",
+                    "messages": [
+                      "Redesign branding; Redesign website; Create an E-menu"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "Tools",
+                    "messages": [
+                      "Figma, Illustrator, Photoshop"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "Timeline",
+                    "messages": [
+                      "4 month (Jan 2019 - May 2019)"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "image_style": "max-height: 300px",
+                    "image": "../images/insitu/intro1.jpeg"
+                  }
+                },
+                {
+                  "container": {
+                    "image_style": "max-height: 300px",
+                    "image": "../images/insitu/intro2.png"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#C0A074",
+        "theme_class": "dark",
+        "align_items": "center",
+        "title": "Research and Analysis ",
+        "subtitle": "Understanding the design constraints. "
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#EFEFF0",
+        "title": "Competitive Analysis",
+        "messages": [
+          "Before jumping into the design, I want to see other competitor restaurants’ websites and find out what are the strength and weaknesses they have."
+        ],
+        "children": [
+          {
+            "container": {
+              "direction": "row",
+              "align_child_items": "center",
+              "children": [
+                {
+                  "container": {
+                    "image": "../images/insitu/research.png"
+                  }
+                },
+                {
+                  "container": {
+                    "messages": ["In Situ’s current website:-  Theme colors: gold and white.-  Logo: Artistic and modern font with dark brown color. -  Luxury and exclusivity interior design(table, chair, lighting, server credenza, lounge)- Animations on the home page."]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "image": "../images/insitu/richtable.png",
+                    "subtitle": "🍲 Rich Table",
+                    "messages": [
+                      "Clean and simple layout and design elements to convey the feel of its surrounding that is modern, convivial, and comfortable.",
+                      "- Theme colors: Red and black.",
+                      "- Theme colors: Red and black."
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "image": "../images/insitu/richtable2.png",
+                    "subtitle": " 🥞 State Bird Provisions",
+                    "messages": [
+                      "Urban-rustic storefront setting for a changing menu of American small plates served dim-sum style.",
+                      "- Theme colors: White, brown, red, and green.",
+                      "- Logo: Handwriting style font with a white outline with a hollow inside.",
+                      "- High-quality cooking"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Target Market",
+        "messages": [
+          "It is a corporate-run enterprise. The restaurant 🥘 is located in SFMOMA which is a modern and contemporary art museum located in San Francisco, California.)"
+        ],
+        "children": [
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "subtitle": "Income",
+                    "messages": [
+                      "Individual school project"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "Interests",
+                    "messages": [
+                      "Individual school project"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "Gender",
+                    "messages": [
+                      "Individual school project"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "Occupation",
+                    "messages": [
+                      "4 month (Jan 2019 - May 2019)"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#C0A074",
+        "theme_class": "dark",
+        "align_items": "center",
+        "title": "Graphics Design",
+        "subtitle": "Logo, Colors, Font"
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#EFEFF0",
+        "align_child_items": "center",
+        "title": "Color Palette",
+        "children": [
+          {
+            "container": {
+              "align_items": "center",
+              "messages": [
+                "In order to keep the restaurant with its usual premium feel and echo the interior design, I chose golden brown, black, and white as the main colors of the design.",
+                "Also, we have a lot of customers who like art, so I used vibrant green to give the design character and vibrancy.",
+                "This color scheme keeps the mystery and also makes customers appetite."
+              ]
+            }
+          },
+          {
+            "container": {
+              "image_style": "max-height: 400px;",
+              "image": "../images/insitu/colorpalette.png"
+            }
+          },
+          {
+            "container": {
+              "align_items": "center",
+              "subtitle": "Font",
+              "messages": [
+                "I chose the font for the logo and the title is Plantin MT; for the body is Helvetica."
+              ]
+            }
+          },
+          {
+            "container": {
+              "align_items": "center",
+              "subtitle": "Logo Design",
+              "children": [
+                {
+                  "container": {
+                    "image_style": "max-height: 400px;",
+                    "image": "../images/insitu/inspiration.png",
+                    "messages": [
+                      "I chose the font for the logo and the title is Plantin MT; for the body is Helvetica."
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "align_items": "center",
+              "subtitle": "Logo Mockup",
+              "children": [
+                {
+                  "container": {
+                    "image_style": "max-height: 400px;",
+                    "image": "../images/insitu/logomockup.png"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#C0A074",
+        "theme_class": "dark",
+        "align_items": "center",
+        "title": "Stationary Design",
+        "subtitle": "Logo, Colors, Font"
+      }
+    },
+    {
+      "section": {
+        "children": [
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "image_style": "max-width: 100%;",
+                    "image": "../images/insitu/stationary1.png"
+                  }
+                },
+                {
+                  "container": {
+                    "image_style": "max-width: 100%;",
+                    "image": "../images/insitu/stationary2.png"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "image_style": "max-width: 100%;",
+                    "image": "../images/insitu/stationary3.png"
+                  }
+                },
+                {
+                  "container": {
+                    "image_style": "max-width: 100%;",
+                    "image": "../images/insitu/stationary4.png"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#C0A074",
+        "theme_class": "dark",
+        "align_items": "center",
+        "title": "Advertising"
+      }
+    },
+    {
+      "section": {
+        "title": "Advertising - Anywhere",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "children": [
+                {
+                  "container": {
+                    "image_style": "max-width: 100%;",
+                    "image": "../images/insitu/ads1.png"
+                  }
+                },
+                {
+                  "container": {
+                    "image_style": "max-width: 100%;",
+                    "image": "../images/insitu/ads2.png"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "children": [
+                {
+                  "container": {
+                    "image_style": "max-width: 100%;",
+                    "image": "../images/insitu/ads3.png"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "children": [
+                {
+                  "container": {
+                    "image_style": "max-width: 100%;",
+                    "image": "../images/insitu/ads4.png"
+                  }
+                },
+                {
+                  "container": {
+                    "image_style": "max-width: 100%;",
+                    "image": "../images/insitu/ads5.png"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#C0A074",
+        "theme_class": "dark",
+        "align_items": "center",
+        "title": "Site Map"
+      }
+    },
+    {
+      "section": {
+        "align_child_items": "center",
+        "children": [
+          {
+            "container": {
+              "align_items": "center",
+              "messages": [
+                "I generated a site map to make sure I stayed focused on the features and screens that were essential to the website, understand the architecture, and ensure that the navigation is structured intuitively for users. "
+              ]
+            }
+          },
+          {
+            "container": {
+              "image_style": "max-width: 800px;",
+              "align_items": "center",
+              "image": "../images/insitu/sitemap.png"
+            }
+          },
+          {
+            "container": {
+              "image_style": "max-width: 800px;",
+              "align_items": "center",
+              "image": "../images/insitu/sitemap2.png"
+            }
+          }
+        ]
       }
     }
   ]

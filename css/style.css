@@ -197,7 +197,7 @@ select.flex-none {
 .image-button a {
   -webkit-text-size-adjust: 100%;
   overflow-wrap: break-word;
-  font-family: orpheus-pro;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-style: normal;
   text-transform: none;
@@ -220,7 +220,7 @@ select.flex-none {
 .footer-content-wrapper {
   -webkit-text-size-adjust: 100%;
   overflow-wrap: break-word;
-  font-family: adobe-garamond-pro;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0em;
@@ -235,7 +235,7 @@ select.flex-none {
 
 .footer-content-wrapper p {
   -webkit-text-size-adjust: 100%;
-  font-family: adobe-garamond-pro;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0em;
@@ -260,13 +260,12 @@ select.flex-none {
 .hero-image-overlay {
   -webkit-text-size-adjust: 100%;
   font-family: 'Open Sans', sans-serif;
-  color: #101010;
+  color: white;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   text-align: center;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
   box-sizing: border-box;
   position: absolute;
   left: 0px;
@@ -274,19 +273,18 @@ select.flex-none {
   right: 0px;
   bottom: 0px;
   z-index: 2;
-  background-color: #101010;
+  background-color: white;
   opacity: 0.3;
 }
 
 .hero-image {
   -webkit-text-size-adjust: 100%;
   font-family: 'Open Sans', sans-serif;
-  color: #101010;
+  color: white;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
   white-space: normal;
   text-align: left;
   box-sizing: border-box;
@@ -305,12 +303,11 @@ select.flex-none {
 .hero-image-wrapper {
   -webkit-text-size-adjust: 100%;
   font-family: 'Open Sans', sans-serif;
-  color: #101010;
+  color: white;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
   box-sizing: border-box;
   position: relative;
   display: inline-block;
@@ -328,7 +325,7 @@ select.flex-none {
 .hero-section {
   -webkit-text-size-adjust: 100%;
   font-family: 'Open Sans', sans-serif;
-  color: #101010;
+  color: white;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
@@ -342,7 +339,7 @@ select.flex-none {
   justify-content: center;
   -webkit-box-align: center;
   align-items: center;
-  background-color: #101010;
+  background-color: white;
 }
 
 .full-height {
@@ -354,7 +351,7 @@ select.flex-none {
   display: block;
   -webkit-text-size-adjust: 100%;
   overflow-wrap: break-word;
-  font-family: adobe-garamond-pro;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0em;
@@ -370,7 +367,7 @@ select.flex-none {
 .block-content {
   -webkit-text-size-adjust: 100%;
   overflow-wrap: break-word;
-  font-family: adobe-garamond-pro;
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0em;
@@ -387,13 +384,11 @@ select.flex-none {
   -webkit-text-size-adjust: 100%;
   overflow-wrap: break-word;
   -webkit-font-smoothing: antialiased;
-  font-family: Montserrat;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0em;
   text-transform: none;
   line-height: 1.2992;
-  font-size: calc((2.8 - 1) * 1.2vw + 1rem);
   margin: 2rem 0;
   color: #4d4d4d;
   transition-property: opacity;
@@ -415,14 +410,12 @@ select.flex-none {
 .block-content h3
 .block-content p {
   -webkit-text-size-adjust: 100%;
-  font-family: adobe-garamond-pro;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0em;
   text-transform: none;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
-  font-size: calc((1.2 - 1) * 1.2vw + 1rem);
   color: #000;
   margin: 1rem 0;
   transition-property: opacity;
@@ -440,7 +433,6 @@ select.flex-none {
 .spacer-block {
   -webkit-text-size-adjust: 100%;
   overflow-wrap: break-word;
-  font-family: adobe-garamond-pro;
   font-weight: 400;
   font-style: normal;
   letter-spacing: 0em;
@@ -465,4 +457,8 @@ select.flex-none {
   justify-content: center;
 }
 
+.social-icon {
+  margin-right: 2.5vw;
+  display: inline-block;
+}
 

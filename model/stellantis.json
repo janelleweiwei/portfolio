@@ -35,10 +35,13 @@
     },
     {
       "section": {
-        "style": "background-color:#EFEFF0;",
+        "style": "background-color:#EFEFF0; text-align: center;",
         "title": "Storyboard",
-        "subtitle": "Our goal is to create a sustainable society that encourages biodiversity through communal effort and innovative design.",
         "children": [
+          {
+            "style": "text-align: center;",
+            "subtitle": "Our goal is to create a sustainable society that encourages biodiversity through communal effort and innovative design."
+          },
           {
             "container": {
               "images": [
@@ -62,9 +65,129 @@
               "images": [
                 "../images/stellantis/exterior1.png",
                 "../images/stellantis/exterior2.png",
-                "../images/stellantis/exterior3.png"
+                "../images/stellantis/exterior3.png",
+                "../images/stellantis/exterior4.png"
               ],
               "carousel_style": "full_width"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Automotive Interior Design",
+        "children": [
+          {
+            "container": {
+              "images": [
+                "../images/stellantis/interior1.png",
+                "../images/stellantis/interior2.png"
+              ],
+              "carousel_style": "full_width"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Architecture Design",
+        "children": [
+          {
+            "container": {
+              "images": [
+                "../images/stellantis/arch1.png",
+                "../images/stellantis/arch2.png",
+                "../images/stellantis/arch3.png",
+                "../images/stellantis/arch4.png"
+              ],
+              "carousel_style": "full_width"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Materials",
+        "children": [
+          {
+            "container": {
+              "images": [
+                "../images/stellantis/material1.png",
+                "../images/stellantis/material2.png"
+              ],
+              "carousel_style": "full_width"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "User Experience Design",
+        "children": [
+          {
+            "container": {
+              "image": "../images/stellantis/ux.png"
+            }
+          },
+          {
+            "container": {
+              "video": "https://www.youtube.com/embed/EY75bwynQ_8?rel=0&controls=1&autoplay=0&mute=0&start=0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Final Movie",
+        "children": [
+          {
+            "container": {
+              "video": "https://www.youtube-nocookie.com/embed/ulNbxqFViDo?rel=0&controls=1&autoplay=0&mute=0&start=0"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Meet the team",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "image_style": "max-height: 300px;",
+              "image": "../images/stellantis/team1.png",
+              "subtitle": "Tanuj Kaushik",
+              "align_items": "center"
+            }
+          },
+          {
+            "container": {
+              "image_style": "max-height: 300px;",
+              "image": "../images/stellantis/team2.png",
+              "subtitle": "Alejandro Rivera",
+              "align_items": "center"
+            }
+          },
+          {
+            "container": {
+              "image_style": "max-height: 300px;",
+              "image": "../images/stellantis/team3.png",
+              "subtitle": "Molly Michalski",
+              "align_items": "center"
+            }
+          },
+          {
+            "container": {
+              "image_style": "max-height: 300px;",
+              "image": "../images/stellantis/team4.png",
+              "subtitle": "Janelle Li",
+              "align_items": "center"
             }
           }
         ]

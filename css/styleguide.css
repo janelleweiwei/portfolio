@@ -24,6 +24,7 @@
   --header-height:3rem;
 }
 
+
 html {
   display: block;
   width: 100%;
@@ -35,9 +36,10 @@ h1,
 h2,
 h3,
 h4{
-  font-family: Montserrat;
   color: #101010;
+  font-family:sans-serif;
 }
+
 h5,
 h6,
 p{
@@ -45,9 +47,13 @@ p{
 }
 h1{ font-size: 38px; }
 h2{ font-size: 30px; }
-h3{ font-size: 24px; }
+h3{ font-size: 18px; }
 h4{ font-size: 18px; }
 p{ font-size: 16px; }
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.45;
+}
 
 body, html {
   height: 100%;
@@ -93,16 +99,9 @@ footer p {
 }
 
 a {
-/*  font-weight:bold;*/
   text-decoration: underline;
   font-size: 18px;
-  color: blue;
-}
-
-a:hover {
-  text-decoration: underline;
-  background-color:#f3cfd5;
-  color:inherit;
+  color: transparent;
 }
 
 code {
@@ -187,9 +186,11 @@ main .container {
 .navbar {
   -webkit-text-size-adjust: 100%;
   font-family: 'Open Sans', sans-serif;
-  display: flex;
+  display: flex !important;
   flex-direction: column;
   color: #101010;
+  padding-top: 18px;
+  padding-bottom: 18px;
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
@@ -208,21 +209,21 @@ main .container {
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.1);
   padding-right: 32px;
   padding-left: 32px;
-  background-color: rgba(182, 187, 216, .4);
-  z-index: 1000;
+  background-color: white;
+  z-index: 5000;
 }
 
 .navbar h1 {
   margin:0;
   font-size:1rem;
-  font-family: Apple Chancery;
+  font-family: -apple-system, BlinkMacSystemFont;
 }
 
 .navbar a {
   padding: 0 1em;
   color: black;
   font-size: 1.4em;
-  font-family: Apple Chancery;
+  font-family: -apple-system, BlinkMacSystemFont;
 }
 
 #nav-logo {
@@ -242,17 +243,10 @@ main .container {
 .nav-flex a,
 .nav a {
   display:block;
+  background-color: transparent !important;
   padding:0.2em 0.5em;
 }
 
-.nav-pills a:hover,
-.nav-stretch a:hover,
-.nav-flex a:hover,
-.nav a:hover {
-  background-color:var(--color-main-medium);
-  color:var(--color-white);
-  text-decoration:none;
-}
 .nav-pills li.active a,
 .nav-stretch li.active a,
 .nav-flex li.active a,
@@ -267,9 +261,7 @@ main .container {
 .nav-flex ul,
 .nav ul {
   list-style-type:none;
-  display:flex;
-  flex-direction: row;
-  align-items: center;
+  align-items: flex-end;
   margin-block-start: 0px;
   margin-block-end: 0px;
   margin-inline-start: 0px;
@@ -277,14 +269,13 @@ main .container {
   padding-inline-start: 0px;
 }
 
-.nav-stretch li {
-  flex: 1 1 auto;
-  text-align:center;
+.nav-pills li[aria-expanded="true"] {
+  text-align: right;
 }
 
 .nav-pills a {
+  text-decoration: none;
   border-radius:2em;
-  padding:0.5em 1em;
 }
 
 .nav-crumbs li:not(:first-child)::before {
@@ -292,21 +283,12 @@ main .container {
   margin:0 0.4em;
 }
 
-.topnav a {
-  text-decoration: none;
-  padding: 0.5em 1em;
-}
-.topnav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 /* CARD */
 .card {
   overflow: hidden;
   position: relative;
+  border: none !important;
+  background-color: transparent !important;
 }
 
 .card>:first-child { margin-top:0; }
@@ -659,6 +641,7 @@ form {border: 3px /*solid #ffffff*/;}
 [class*='col-']>.card{
   height: 100%;
   margin:0;
+  border: none !important;
 }
 
 /* FIGURE */

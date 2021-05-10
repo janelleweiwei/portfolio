@@ -11,24 +11,32 @@
         "children": [
           {
             "container": {
+              "style": "text-align:center",
+              "align_items": "center",
               "subtitle": "Project Type",
               "messages": ["Design Sprint"]
             }
           },
           {
             "container": {
+              "style": "text-align:center",
+              "align_items": "center",
               "subtitle": "My Role",
               "messages": ["Using the Google Sprint approach developed by Google Ventures I conducted a solo sprint, working on the design, research, testing, and iterations on this byproduct of GramCity. "]
             }
           },
           {
             "container": {
+              "style": "text-align:center",
+              "align_items": "center",
               "subtitle": "Tools",
               "messages": ["Figma, Miro, Marvel"]
             }
           },
           {
             "container": {
+              "style": "text-align:center",
+              "align_items": "center",
               "subtitle": "Project duration",
               "messages": ["5 days"]
             }

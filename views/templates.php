@@ -44,6 +44,7 @@ HTML;
     // Block HTML
     $image_html = createImageHTML($root_container->image, $root_container->image_style);
     $slide_show_html = createSlideShowHTML($root_container->images, $root_container->carousel_style);
+    $video_html = createVideoHTML($root_container->video);
     $title_html = createTitleHTML($root_container->title);
     $subtitle_html = createSubtitleHTML($root_container->subtitle);
     $byline_html = createBylineHTML($root_container->byline);
@@ -55,6 +56,7 @@ HTML;
       $image_html = maybeWrapWithHorizontalPadding($image_html, $horizontal_padding);
       $subtitle_html = maybeWrapWithHorizontalPadding($subtitle_html, $horizontal_padding);
       $slide_show_html = maybeWrapWithHorizontalPadding($slide_show_html, $horizontal_padding);
+      $video_html = maybeWrapWithHorizontalPadding($video_html, $horizontal_padding);
       $messages_html = maybeWrapWithHorizontalPadding($messages_html, $horizontal_padding);
       if (count($child_htmls) == 1) {
         $grid_html = maybeWrapWithHorizontalPadding($grid_html, $horizontal_padding);
@@ -63,8 +65,11 @@ HTML;
 
     $self_center_align_items = $root_container->align_items == 'center';
 
-    $blockHtml = createBlockHTML($image_html, $slide_show_html, $title_html, $subtitle_html, $messages_html, $grid_html, $self_center_align_items);
-    return "<div style='{$root_container->style}'>" . $blockHtml . "</div>";
+    $blockHtml = createBlockHTML($image_html, $slide_show_html, $video_html, $title_html, $subtitle_html, $messages_html, $grid_html, $self_center_align_items);
+    if (!isset($root_container->style)) {
+      return  $blockHtml;
+    }
+    return "<div style='height:100%; {$root_container->style}'>" . $blockHtml . "</div>";
   }
 
   function maybeCreateGridHTML($child_htmls, $column_direction=true, $center_align_children=false) {
@@ -92,7 +97,7 @@ HTML;
 
     $grid_html = "<div class='grid gap'>";
     foreach ($child_htmls as $child_html) {
-      $grid_html = $grid_html . "<div class='col-xs-12 col-md-{$num_cols_per_child} col-xl-{$num_cols_per_child} {$extra_class}'>" . $child_html . "</div>";
+      $grid_html = $grid_html . "<div class='col-xs-12 col-s-12 col-md-{$num_cols_per_child} col-xl-{$num_cols_per_child} {$extra_class}'>" . $child_html . "</div>";
     }
     $grid_html = $grid_html . "</div>";
     return $grid_html;
@@ -100,12 +105,13 @@ HTML;
 
   function createBlockHTML($image_html="", 
     $slide_show_html="",
+    $video_html="",
     $title_html="", 
     $subtitle_html="", 
     $messages_html="",
     $children_html="",
     $center_align_items=false) {
-if (empty($image_html) && empty($slide_show_html) && empty($title_html) && empty($subtitle_html) && empty($messages_html)
+if (empty($image_html) && empty($slide_show_html) && empty($video_html) && empty($title_html) && empty($subtitle_html) && empty($messages_html)
     && empty($children_html)) {
   return "";
 }
@@ -116,7 +122,7 @@ return <<<HTML
 
 <div class="block">
   <div class="block-content {$extra_class}">
-    $image_html $slide_show_html $title_html $subtitle_html $messages_html $children_html
+    $image_html $slide_show_html $video_html $title_html $subtitle_html $messages_html $children_html
   </div>
 </div>
 
@@ -187,7 +193,7 @@ if ($carousel_style == "full_width") {
 
 $extra_img_style = "max-width: 600px";
 if ($carousel_style == "full_width") {
-  $extra_img_style = "max-width: 1000px";
+  $extra_img_style = "max-width: 100%";
 }
 
 $img_htmls = "";
@@ -197,11 +203,27 @@ foreach($image_url_array as $image_url) {
 
 return <<<HTML
 
-<div class="gallery{$extra_class} js-flickity" data-flickity-options='{ "wrapAround": true, "setGallerySize": false, "percentPosition": false, "imagesLoaded": true }'>
+<div class="gallery{$extra_class} js-flickity" data-flickity-options='{ "wrapAround": true, "setGallerySize": false, "percentPosition": false, "imagesLoaded": true, "cellAlign": "right", "contain": true }'>
   $img_htmls
 </div>
 <div class="spacer-block"></div>
 HTML;
+  }
+
+  function createVideoHTML($video_url) {
+if (!isset($video_url) || empty($video_url)) {
+  return "";
+}
+
+return <<<HTML
+
+<div style="position:relative; box-sizing: border-box; padding: 30%; width:100%;">
+  <iframe src="{$video_url}" frameborder="0" style="position:absolute;left:0;top:0;width:100%;height:100%;pointer-events:auto" allow="autoplay; encrypted-media" allowfullscreen="">
+  </iframe>
+</div>
+
+HTML;
+
   }
 
 

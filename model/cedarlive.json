@@ -5,6 +5,7 @@
         "children": [
           {
             "container": {
+              "style": "text-align:center;",
               "title": "What's the context?",
               "messages": [
                 "CedarLive is my capstone project, designed to provide a platform for domain experts and learners for professional learning and career advice."
@@ -13,12 +14,15 @@
           },
           {
             "container": {
+              "align_items": "center",
+              "image_style": "max-height: 300px;",
               "image": "../images/cedarlive_context.png"
             }
           },
           {
             "container": {
               "direction": "row",
+              "align_child_items": "center",
               "children": [
                 {
                   "container": {
@@ -26,7 +30,7 @@
                     "messages": [
                       "Figma, Photoshop, Miro, Marvels"
                     ],
-                    "align_items": "center"
+                    "style": "text-align:center"
                   }
                 },
                 {
@@ -35,7 +39,7 @@
                     "messages": [
                       "UI/UX design, design strategy, user research, design handoff"
                     ],
-                    "align_items": "center"
+                    "style": "text-align:center"
                   }
                 },
                 {
@@ -44,7 +48,7 @@
                     "messages": [
                       "August 1st, 2020 - January 1st, 2021"
                     ],
-                    "align_items": "center"
+                    "style": "text-align:center"
                   }
                 }
               ]
@@ -63,12 +67,14 @@
           {
             "container": {
               "align_items": "center",
+              "style": "text-align:center;",
               "title": "Live-streaming anytime, anywhere",
               "subtitle": "As a user, you can watch tutorials, inspiring talks, join workshops through CedarLive, the mobile app."
             }
           },
           {
             "container": {
+              "image_style": "max-height: 600px;",
               "image": "../images/cedarlive_glance1.gif"
             }
           }
@@ -77,17 +83,21 @@
     },
     {
       "section": {
+        "style": "background-color:#243233",
+        "theme_class": "dark",
         "direction": "row",
         "align_child_items": "center",
         "children": [
           {
             "container": {
+              "image_style": "max-height: 600px;",
               "image": "../images/cedarlive_glance2.gif"
             }
           },
           {
             "container": {
               "align_items": "center",
+              "style": "text-align:center;",
               "title": "Follow a speaker and get notifications for the future.",
               "subtitle": "You can follow any speaker you want and get notifications so that you won’t miss this speaker’s future live-streaming."
             }
@@ -105,12 +115,14 @@
           {
             "container": {
               "align_items": "center",
+              "style": "text-align:center;",
               "title": "Post reviews and grow into an expert",
               "subtitle": "At the same time, upload your works, resume, or portfolio for professional feedbacks and reviews from people in your career fields."
             }
           },
           {
             "container": {
+              "image_style": "max-height: 600px;",
               "image": "../images/cedarlive_glance3.gif"
             }
           }
@@ -122,7 +134,7 @@
         "children": [
           {
             "container": {
-              "title": "How CedarLive was Designed?"
+              "title": "How was CedarLive Designed?"
             }
           }
         ]
@@ -166,6 +178,7 @@
         "style": "background-color:#243233",
         "theme_class": "dark",
         "title": "Discovering The Problem",
+        "style": "text-align: center;",
         "messages": [
           "On the market, there isn't a platform for these two groups of people to gain mutual benefits."
         ],
@@ -199,6 +212,7 @@
           {
             "container": {
               "image": "../images/cedarlive_designprocess.png",
+              "style": "text-align:center;",
               "messages": [
                 "In order to overcome the above obstacles, I divided my task into three portions: Research, Design, and Test."
               ]
@@ -257,6 +271,7 @@
       "section": {
         "style": "background-color:#f7f7f7",
         "title": "Secondary Research",
+        "style": "text-align:center;",
         "messages": [
           "On the market, there isn't a platform for these two groups of people to gain mutual benefits."
         ],
@@ -264,12 +279,13 @@
         "children": [
           {
             "container": {
-              "align_items": "center",
+              "image_style": "height: 300px; object-fit: contain;",
               "image": "../images/cedarlive_secondary_research1.png",
               "children": [
                 {
                   "container": {
                     "subtitle": "Experts’ Needs",
+                    "style": "text-align:center;",
                     "messages": [
                       "- Why? Engrain and expand knowledge, established reputations as an authority, and increase professional value.",
                       "- How? Becoming a mentor, writing articles, training others, being a resource, and taking the lead."
@@ -281,12 +297,13 @@
           },
           {
             "container": {
-              "align_items": "center",
+              "image_style": "height: 300px; object-fit: contain;",
               "image": "../images/cedarlive_secondary_research2.png",
               "children": [
                 {
                   "container": {
                     "subtitle": "Learners’ Frustrations",
+                    "style": "text-align:center;",
                     "messages": [
                       "- Arrange from $100 - $150 per hour",
                       "- Expensive for students and new graduates"
@@ -328,7 +345,7 @@
           {
             "container": {
               "image": "../images/cedarlive_survey3.png",
-              "subtitle": "Where makes it harder for people to share?",
+              "subtitle": "What makes it harder for people to share?",
               "messages": [
                 "People with a busy lifestyle, an introverted personality, and who do not know where to find a trusted platform make knowledge sharing harder."
               ]
@@ -433,7 +450,7 @@
     },
     {
       "section": {
-        "style": "background-color:#be6f7f;",
+        "style": "background-color:#7ec4ad;",
         "theme_class": "dark",
         "align_items": "center",
         "title": "Persona",
@@ -460,7 +477,7 @@
     },
     {
       "section": {
-        "style": "background-color:#be6f7f;",
+        "style": "background-color:#7ec4ad;",
         "theme_class": "dark",
         "title": "Insights"
       }
@@ -472,9 +489,8 @@
     },
     {
       "section": {
-        "style": "background-color:#be6f7f;",
-        "theme_class": "dark",
         "title": "Key Findings",
+        "style": "text-align: center;",
         "messages": [
           "I learned that while experts and learners have a high level of motivation to connect, they need support to achieve it. The platform should create online career sharing convenient and efficient and allow people to connect using their fragmented rest time."
         ],
@@ -517,7 +533,7 @@
     },
     {
       "section": {
-        "style": "background-color: #7ec4ad",
+        "style": "background-color:#7ec4ad;",
         "theme_class": "dark",
         "subtitle": "Opportunity",
         "align_items": "center",
@@ -532,7 +548,6 @@
     },
     {
       "section": {
-        "style": "background-color:#F7F3F0",
         "title": "Hypothesis Framing",
         "children": [
           {
@@ -545,8 +560,6 @@
     },
     {
       "section": {
-        "style": "background-color:#7ec4ad",
-        "theme_class": "dark",
         "title": "The Solutions",
         "children": [
           {
@@ -620,7 +633,7 @@
     },
     {
       "section": {
-        "style": "background-color:#efd467;",
+        "style": "background-color:#7ec4ad;",
         "theme_class": "dark",
         "title": "Iterations"
       }
@@ -631,19 +644,22 @@
         "children": [
           {
             "container": {
+              "style": "text-align: center;",
               "title": "Task 1",
               "subtitle": "Post a comment during a live-streaming"
             }
           },
           {
             "container": {
-              "title": "Task 1",
+              "style": "text-align: center;",
+              "title": "Task 2",
               "subtitle": "Post a review for other’s work"
             }
           },
           {
             "container": {
-              "title": "Task 1",
+              "style": "text-align: center;",
+              "title": "Task 3",
               "subtitle": "Follow speakers and get future notifications"
             }
           }
@@ -686,8 +702,6 @@
     },
     {
       "section": {
-        "style": "background-color:#efd467;",
-        "theme_class": "dark",
         "children": [
           {
             "container": {
