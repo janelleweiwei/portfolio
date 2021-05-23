@@ -1,1 +1,3 @@
-stp-config.json
+*.DS_Store
+*sftp-config.json
+*auth.php
