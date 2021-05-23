@@ -1,8 +1,1134 @@
 {
   "sections": [
     {
-      "container": {
-        
+      "section": {
+        "style": "background-color: rgb(255, 239, 152)",
+        "direction": "row",
+        "align_child_items": "center",
+        "children": [
+          {
+            "container": {
+              "align_items": "center",
+              "style": "text-align: center",
+              "title": "Crunch Mobile App Redesign Project",
+              "subtitle": "The Crunch Mobile app focuses on the needs of its members who are on-the-go."
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "image": "../images/crunch/hero1.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "image": "../images/crunch/hero1.webp"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "HEURISTIC EVALUATION",
+        "children": [
+          {
+            "container": {
+              "image": "../images/crunch/heuristic.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "DESIGN GOALS",
+        "children": [
+          {
+            "container": {
+              "image": "../images/crunch/goals.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "COMPETITORS",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "image": "../images/crunch/competitor1.webp",
+              "messages": [
+                "<span style='color:#BF6A94; font-size:17px; font-weight:bold;'>ClassPass</span> is the world’s largest fitness network. Users can book fitness activities on the app to access 25,000+ studios and gyms at any time."
+              ],
+              "children": [
+                {
+                  "container": {
+                    "messages": [
+                      "<span style='color:#50CFE0; font-size:17px; font-weight:bold;'>Advantages:</span>"
+                    ],
+                    "list": [
+                      "Excellent presentation",
+                      "Clearly filters for search",
+                      "Organized class details",
+                      "Energetic colors, font, and pictures",
+                      "Great Navigation bar",
+                      "Comments and ratings for every class",
+                      "Map to display gym locations"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/crunch/competitor2.webp",
+              "messages": [
+                "<span style='color:#BF6A94; font-size:17px; font-weight:bold;'>Anytime Fitness</span> is a club as a supportive community that is open 24 hours a day with coaching & training for all fitness levels."
+              ],
+              "children": [
+                {
+                  "container": {
+                    "messages": [
+                      "<span style='color:#50CFE0; font-size:17px; font-weight:bold;'>Advantages:</span>"
+                    ],
+                    "list": [
+                      "Energetic colors, font, and pictures",
+                      "Great Navigation bar",
+                      "Map to display gym locations"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/crunch/competitor3.webp",
+              "messages": [
+                "<span style='color:#BF6A94; font-size:17px; font-weight:bold;'>Planet Fitness</span> a club that has 1,800+ locations worldwide with free fitness training, 24/7 open hours, tons of cardio & strength and no-commitment memberships."
+              ],
+              "children": [
+                {
+                  "container": {
+                    "messages": [
+                      "<span style='color:#50CFE0; font-size:17px; font-weight:bold;'>Advantages:</span>"
+                    ],
+                    "list": [
+                      "Excellent presentation",
+                      "Clear filters and information",
+                      "Energetic colors, fonts, and pictures",
+                      "Great Navigation bar",
+                      "Map to display store locations"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "DEMOGRAPHICS",
+        "children": [
+          {
+            "container": {
+              "image": "../images/crunch/demographics.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "TARGET AUDIENCE",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "subtitle": "<span style='color:#bf8a6a;'>Demographics:</span>",
+              "list": [
+                "<span style='color:#bf8a6a;'>Age:</span> 18 - 34 years old",
+                "<span style='color:#bf8a6a;'>Gender:</span> 70% female & 30% male",
+                "<span style='color:#bf8a6a;'>Income:</span> Middle class (from $60,000 to $100,000/year)",
+                "<span style='color:#bf8a6a;'>Occupation:</span> College students and young professionals",
+                "<span style='color:#bf8a6a;'>Education:</span> College and graduate school",
+                "<span style='color:#bf8a6a;'>Location:</span> live in or near the city (the USA or Canada)",
+                "<span style='color:#bf8a6a;'>Stage of life:</span> Single without children",
+                "<span style='color:#bf8a6a;'>Brands & Shopping:</span> Amazon, Walmart, Target, Whole-foods, Neiman Marcus, Lululemon, Adidas, & Nike.",
+                "<span style='color:#bf8a6a;'>Apps & Social Media:</span> Google, Facebook, YouTube, Reddit, Twitter, Indeed, & Hulu."
+              ]
+            }
+          },
+          {
+            "container": {
+              "subtitle": "<span style='color:#bf8a6a;'>Needs:</span>",
+              "messages": [
+                "College students or young working adults who have a long day from 9:00 am-6:00 pm, but still want to work out and take different kinds of fitness classes to keep a healthy lifestyle.",
+                "(Any level from beginners to experts)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Interview Candidates",
+        "children": [
+          {
+            "container": {
+              "image": "../images/crunch/interview.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color: rgb(255, 239, 152)",
+        "title": "Persona 1"
+      }
+    },
+    {
+      "section": {
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image_style": "width: 250px; height: 250px; border-radius: 50%;",
+                    "image": "../images/crunch/alice.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "style": "text-align: center;",
+                    "subtitle": "<span style='color:#50CFE0; font-size:26px; font-weight:bold;'>Alice, 25, Software Engineer</span>"
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "messages": [
+                      "Alice is a 25 years old software engineer who works at Google. She usually works 8 hours per day from Monday through Friday. She just broke up with her boyfriend 3 months ago, so she is upset and gets a little bit of weight recently. In order to exercise and eat healthily, she is looking for a fitness place that has morning and evening classes and a professional coach. She is willing to make more friends during work out and become more confident and outgoing. She is ready for her new life."
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "style": "text-align: center;",
+                    "messages": [
+                      "\"As a full--time worker, I need an efficient way to search for a fitness class to workout before & after work.\""
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "children": [
+                {
+                  "container": {
+                    "messages": [
+                      "<span style='color:#50CFE0; font-size:19px; font-weight:bold;'>Frustration:</span>"
+                    ],
+                    "list": [
+                      "Don’t know how to eat healthily",
+                      "Unfamiliar with the fitness types of equipment",
+                      "Don’t know where to find the fitness classes filter by time (before 9:00 am & after 7:00om)"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "messages": [
+                      "<span style='color:#50CFE0; font-size:19px; font-weight:bold;'>Goals:</span>"
+                    ],
+                    "list": [
+                      "To stop an unhealthy lifestyle",
+                      "Work out before or after work",
+                      "Make more friends"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "subtitle": "<span style='color:#50CFE0; font-size:24px; font-weight:bold;'>User story</span>"
+                  }
+                },
+                {
+                  "container": {
+                    "messages": [
+                      "<span style='color:#50CFE0; font-size:19px; font-weight:bold;'>Set up:</span>",
+                      "Alice, a 25 years old female Google software engineer currently working in Mountain View, CA. On Monday morning at 7:30 am, she wants to find a partner who goes to the same Cardio class with her.",
+                      "<span style='color:#50CFE0; font-size:19px; font-weight:bold;'>Action:</span>",
+                      "She lying on the bed and open the crunch app, click “Match a Friend” on the bottom navigation bar, then chooses “Find a Friend”. She selects the Yoga class she will go to today, then the system shows her some people. She selects “Joy Qi” then clicks “Done”.",
+                      "<span style='color:#50CFE0; font-size:19px; font-weight:bold;'>Result:</span>",
+                      "She finds Joy Qi in the Yoga classroom, then shakes the phone at the same time with her. She successfully matched with Joy Qi and earned 1 reward point. "
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "align_child_items": "center",
+        "children": [
+          {
+            "container": {
+              "image_style": "width: 240px;",
+              "align_items": "center",
+              "image": "../images/crunch/task1.webp"
+            }
+          },
+          {
+            "container": {
+              "align_items": "center",
+              "image": "../images/crunch/userflow1.webp"
+            }
+          },
+          {
+            "container": {
+              "align_items": "center",
+              "image": "../images/crunch/outcome1.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Proof of Concept",
+        "children": [
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task1-1.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task1-2.webp"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task1-3.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task1-4.webp"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task1-5.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task1-6.webp"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task1-7.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task1-8.webp"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color: rgb(255, 239, 152)",
+        "title": "Persona 2"
+      }
+    },
+    {
+      "section": {
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+               "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image_style": "width: 250px; height: 250px; border-radius: 50%;",
+                    "image": "../images/crunch/lily.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "style": "text-align: center;",
+                     "subtitle": "<span style='color:#50CFE0; font-size:26px; font-weight:bold;'>Lily, 34, Accountant</span>"
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "messages": [
+                      "Lily married her husband 6 years ago. Last year, her wish came true - she gave birth to a baby. With happiness, she faces some problems. She gets a lot of weight and really needs a personal coach to help her build a healthy body shape. At the same time, she works as a full-time accountant from 8:00 am-5:00 pm. The only classes work for her are after work; she also has to wait for the babysitter come to her house to take care of the baby around 6:00 pm. She needs cleary and easy to use the app to book classes."
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "style": "text-align: center;",
+                    "messages": [
+                      "\"As a working mom, I need a convenient and fast way to search for a fitness class while taking care of my work and kid. \""
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "children": [
+                {
+                  "container": {
+                    "messages": [
+                      "<span style='color:#50CFE0; font-size:19px; font-weight:bold;'>Frustration:</span>"
+                    ],
+                    "list": [
+                      "limited time to work out as a full-time working mother",
+                      "Don’t know the best way to work out",
+                      "Need to filter the fitness classes by time and location"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "messages": [
+                      "<span style='color:#50CFE0; font-size:19px; font-weight:bold;'>Goals:</span>"
+                    ],
+                    "list": [
+                      "Balance work time and life",
+                      "Get back in shape after giving birth",
+                      "Book classes on the app when take care of her kid"
+                    ]
+                  }
+                },
+                 {
+                  "container": {
+                    "align_items": "center",
+                    "subtitle": "<span style='color:#50CFE0; font-size:24px; font-weight:bold;'>User story</span>"
+                  }
+                },
+                {
+                  "container": {
+                    "messages": [
+                      "<span style='color:#50CFE0; font-size:19px; font-weight:bold;'>Set up:</span>",
+                      "Lily, as a 34 years old full-time accountant with one kid currently working at San Francisco, CA. On Friday afternoon around 4:30 pm, she did with work of the week. On the way heading to home to let the babysitter comes into the house to take care of her kid, and she wants to book a class on her phone near home around 7:30 pm.",
+                      "<span style='color:#50CFE0; font-size:19px; font-weight:bold;'>Action:</span>",
+                      "She sits on the Bart and opens the crunch app. On the bottom navigation, she can easily find the touch bar “find a class”, and simply use the full-screen filters to narrow the class by time, location, and rating. Then she reviews her options on the “Event Details” page, then click “Book”.",
+                      "<span style='color:#50CFE0; font-size:19px; font-weight:bold;'>Result:</span>",
+                      "She finds her favorite Yoga class at 7:15 pm near her home within 1 mile with a 5 stars rating instructor. After the yoga class, she feels relaxed and refreshes. Now, she has a nice body shape and a good mood to stay with the family after a stressful long working time. "
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "align_child_items": "center",
+        "children": [
+          {
+            "container": {
+              "image_style": "width: 240px;",
+              "align_items": "center",
+              "image": "../images/crunch/task2.webp"
+            }
+          },
+          {
+            "container": {
+              "style": "text-align: center",
+              "messages": [
+                "You want to search a yoga class by filters (7:15 PM), within 1 mile with a top rating teach by instructor Dan R."
+              ]
+            }
+          },
+          {
+            "container": {
+              "align_items": "center",
+              "image": "../images/crunch/task2-story.webp"
+            }
+          },
+          {
+            "container": {
+              "align_items": "center",
+              "children": [
+                {
+                  "container": {
+                    "subtitle": "User Flow - Task 2"
+                  }
+                },
+                {
+                  "container": {
+                    "image": "../images/crunch/userflow2.webp"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/crunch/outcome2.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Proof of Concept",
+        "children": [
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task2-1.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task2-2.webp"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task2-3.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task2-4.webp"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task2-5.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task2-6.webp"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task2-7.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color: rgb(255, 239, 152)",
+        "title": "Persona 3"
+      }
+    },
+    {
+      "section": {
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+               "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image_style": "width: 250px; height: 250px; border-radius: 50%;",
+                    "image": "../images/crunch/samuel.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "style": "text-align: center;",
+                    "subtitle": "<span style='color:#50CFE0; font-size:26px; font-weight:bold;'>David, 20, College Student</span>"
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "messages": [
+                      "David just starts his first semester at Stanford University as a business major undergraduate student. He is a full-time student who has classes every Tuesday, Wednesday, and Friday. At the same time, he runs his own start-up business company with two other classmates. He works and studies more than 8 hours per day. However, he still extremely wants to have a personal coach to teach her how to exercise and improve her general health."
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "style": "text-align: center;",
+                    "messages": [
+                      "\"As a full-time student and start-up company CEO, I need to book a fitness class anytime and anywhere just by my phone to save time and release stress. \""
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "children": [
+                {
+                  "container": {
+                    "messages": [
+                      "<span style='color:#50CFE0; font-size:19px; font-weight:bold;'>Frustration:</span>"
+                    ],
+                    "list": [
+                      "How and where to release stress",
+                      "Find an efficient way to workout",
+                      "Push himself exercise at least 3 times a week"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "messages": [
+                      "<span style='color:#50CFE0; font-size:19px; font-weight:bold;'>Goals:</span>"
+                    ],
+                    "list": [
+                      "Release stress from school and work",
+                      "Build a nice body shape",
+                      "Challenge himself physically and mentally"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "subtitle": "<span style='color:#50CFE0; font-size:24px; font-weight:bold;'>User story</span>"
+                  }
+                },
+                {
+                  "container": {
+                    "messages": [
+                      "<span style='color:#50CFE0; font-size:19px; font-weight:bold;'>Set up:</span>",
+                      "David, a 20 years old full-time student at Stanford University and own his own startup company in Palo Alto, CA. On Wednesday night around 11:00 pm, he has done with his last meeting and homework. He really enjoyed his last Diesel class with Instructor Andre C.",
+                      "<span style='color:#50CFE0; font-size:19px; font-weight:bold;'>Action:</span>",
+                      "He walks into the elevator of the school’s library and opens the crunch app. On the Home page,  he finds the bottom navigation bar, then clicks “Rate & Review”. After writing down his reviews and ratings, he clicks “Post”. Then tap “Done” on a pop-up box.",
+                      "<span style='color:#50CFE0; font-size:19px; font-weight:bold;'>Result:</span>",
+                      "He gives the instructor Andre’s yoga class a 4-star rating with a comment and a photo."
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "align_child_items": "center",
+        "children": [
+          {
+            "container": {
+              "image_style": "width: 240px;",
+              "align_items": "center",
+              "image": "../images/crunch/task3.webp"
+            }
+          },
+          {
+            "container": {
+              "style": "text-align: center",
+              "messages": [
+                "You want to give the instructor Andre’s yoga class a 4-star rating with a comment & a photo."
+              ]
+            }
+          },
+          {
+            "container": {
+              "align_items": "center",
+              "children": [
+                {
+                  "container": {
+                    "subtitle": "User Flow - Task 3"
+                  }
+                },
+                {
+                  "container": {
+                    "image": "../images/crunch/userflow3.webp"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/crunch/outcome3.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Proof of Concept",
+        "children": [
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task3-1.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task3-2.webp"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task3-3.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task3-4.webp"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/task3-5.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "align_items": "center"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Paper Prototype"
+      }
+    },
+    {
+      "section": {
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/prototype1.png"
+                  }
+                },
+                {
+                  "container": {
+                    "messages": [
+                      "<span style='color:#FF8C17; font-size:18px; font-weight:bold;'>Moderator:</span> Zoe Zhang",
+                      "<span style='color:#FF8C17; font-size:18px; font-weight:bold;'>Tester:</span> Shaonan Dong",
+                      "<span style='color:#FF8C17; font-size:18px; font-weight:bold;'>Designer:</span> Zhuwei Li"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "style": "text-align: center;",
+                    "subtitle": "<span style='color:#FF8C17; font-size:24px; font-weight:bold;'>Result</span>",
+                    "messages": [
+                      "Add a new confirmation page to show users are successfully matched"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/prototype2.png"
+                  }
+                },
+                {
+                  "container": {
+                    "messages": [
+                      "<span style='color:#FF8C17; font-size:18px; font-weight:bold;'>Moderator:</span> Zichen Xi",
+                      "<span style='color:#FF8C17; font-size:18px; font-weight:bold;'>Tester:</span> Wynn Newberry",
+                      "<span style='color:#FF8C17; font-size:18px; font-weight:bold;'>Designer:</span> Zhuwei Li"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "style": "text-align: center;",
+                    "subtitle": "<span style='color:#FF8C17; font-size:24px; font-weight:bold;'>Result</span>",
+                    "messages": [
+                      "Only show the class that user wants to find.",
+                      "Add a real map."
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "children": [
+                {
+                  "container": {
+                    "align_items": "center",
+                    "image": "../images/crunch/prototype3.png"
+                  }
+                },
+                {
+                  "container": {
+                    "messages": [
+                      "<span style='color:#FF8C17; font-size:18px; font-weight:bold;'>Moderator:</span> Zoe Zhang",
+                      "<span style='color:#FF8C17; font-size:18px; font-weight:bold;'>Tester:</span> Jiaxin Xie",
+                      "<span style='color:#FF8C17; font-size:18px; font-weight:bold;'>Designer:</span> Zhuwei Li"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "style": "text-align: center;",
+                    "subtitle": "<span style='color:#FF8C17; font-size:24px; font-weight:bold;'>Result</span>",
+                    "messages": [
+                      "New bottom navigation bar which only shows the important functions."
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Comparison"
+      }
+    },
+    {
+      "section": {
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "image": "../images/crunch/test1.png"
+            }
+          },
+          {
+            "container": {
+              "image": "../images/crunch/test2.png"
+            }
+          },
+          {
+            "container": {
+              "image": "../images/crunch/test3.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "Clickable Prototype"
+      }
+    },
+    {
+      "section": {
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "align_child_items": "center",
+              "children": [
+                {
+                  "container": {
+                    "video_style": "width: 262px; height: 68px; padding: 0px",
+                    "image": "../images/crunch/clickable1.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "video_style": "width: 238px; height: 470px",
+                    "video": "https://video.wixstatic.com/video/87e1ab_f07f7b1b4c6d4cd5955a286778f30c34/480p/mp4/file.mp4"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "align_child_items": "center",
+              "children": [
+                {
+                  "container": {
+                    "video_style": "width: 262px; height: 68px; padding: 0px",
+                    "image": "../images/crunch/clickable1.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "video_style": "width: 238px; height: 470px",
+                    "video": "https://video.wixstatic.com/video/87e1ab_cd6d4600c4914a5c8eb635fb4b632467/480p/mp4/file.mp4"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "container": {
+              "align_child_items": "center",
+              "children": [
+                {
+                  "container": {
+                    "video_style": "width: 262px; height: 68px",
+                    "image": "../images/crunch/clickable1.webp"
+                  }
+                },
+                {
+                  "container": {
+                    "video_style": "width: 238px; height: 470px",
+                    "video": "https://video.wixstatic.com/video/87e1ab_ffbc31f43ba04983b41e2a1b905b9407/480p/mp4/file.mp4"
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "children": [
+          {
+            "container": {
+              "image": "../images/crunch/result1.webp"
+            }
+          },
+          {
+            "container": {
+              "image": "../images/crunch/result2.webp"
+            }
+          },
+          {
+            "container": {
+              "image": "../images/crunch/result3.webp"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color: rgb(255, 239, 152)",
+        "children": [
+          {
+            "container": {
+              "title": "CONCLUSION"
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "subtitle": "Crunch fitness mobile app redesign project",
+              "messages": [
+                "A mobile app redesign project which includes three design ideas, expert & target market interviews, market researches, personas, user flows/stories, paper & clickable prototype and etc."
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "subtitle": "Tools",
+              "messages": [
+                "The design tools that this redesign project used are google slide/form, Figma, Figma Prototype, Illustrator, and Photoshop."
+              ]
+            }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "subtitle": "Source",
+                    "list": [
+                      "ALEXA.COM (TARGET AUDIENCE)",
+                      "APPLE STORE (TARGET AUDIENCE)",
+                      "SIMILARWEB.COM (TARGET AUDIENCE)",
+                      "UNSPLASH.COM (PICTURES)",
+                      "CLASS PASS APP (REDESIGN IDEAS)",
+                      "STRONGER HER APP (REDESIGN IDEAS)"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "Links",
+                    "list": [
+                      "Clickable Prototype <a href='https://www.figma.com/proto/7gBIWI5gITXe1iB8riNsmk/Crunch-Firefame-(Copy)?node-id=243%3A87&scaling=scale-down'>link to Figma 1</a> <a href='https://www.figma.com/proto/7gBIWI5gITXe1iB8riNsmk/Crunch-Firefame-(Copy)?node-id=243%3A19&viewport=247%2C561%2C0.25746843218803406&scaling=scale-down'>link to Figma 2</a> <a href='https://www.figma.com/proto/7gBIWI5gITXe1iB8riNsmk/Crunch-Firefame-(Copy)?node-id=243%3A70&scaling=scale-down'>link to Figma 3</a>",
+                      "A/B tests <a href='https://docs.google.com/forms/d/e/1FAIpQLSfggXPba1xUHAJseOXD_zTuEHjfi8ZQV5S99x0HJPrFMSJRjg/viewform'>link to A/B test 1</a> <a href='https://docs.google.com/forms/d/e/1FAIpQLSfW3XM3fnTShg-pJS-LcqRss9K6zukyzCj1noVH2PUuUTDdOQ/viewform'>link to A/B test 2</> <a href='https://docs.google.com/forms/d/e/1FAIpQLSdEM6QPYrQHi6fADerqmVFu2bC715oMZyUjxnvprADWnyYhsA/viewform'>link to A/B test 3</a>",
+                      "Redesign Journal <a href='https://docs.google.com/presentation/d/1_M7BYAhNvytBtEKvljtj0ksZOwse8ypwBuz_Uo5Bhpk/edit#slide=id.g7b8a852e5d_0_49'>view more</a>",
+                      "Redesign Slideshow  <a href='https://docs.google.com/presentation/d/1_M7BYAhNvytBtEKvljtj0ksZOwse8ypwBuz_Uo5Bhpk/edit#slide=id.g7b8a852e5d_0_49'>view more</a>",
+                      "Interview  <a href='https://docs.google.com/presentation/d/1r2C19Dc4QbyvvrwGJgr-3wIhosdqUPtxOr4xwwYwcrY/edit#slide=id.g640ac00bdd_1_0'>view more</a>",
+                      "Redesign Proof of Concept  <a href='https://docs.google.com/presentation/d/1TzU4FJmW_RPoqYGTQITuz-42qT2iVELBqPjdO3XYP_k/edit#slide=id.g7b89a0ca01_1_76'>view more</a>"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "align_items": "center",
+        "children": [
+          {
+            "container": {
+              "align_items": "center",
+              "image_style": "max-width: 400px;",
+              "image": "../images/crunch/colorscheme.webp"
+            }
+          }
+        ]
       }
     }
   ]

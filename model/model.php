@@ -4,9 +4,22 @@
     echo "<pre>",print_r($d),"</pre>";
   }
 
-  $root_url = 'http://' . $_SERVER['HTTP_HOST'] . '/aau/portfolio/';
-  $project_thumbnails_json_string = file_get_contents($root_url . "model/project_thumbnails.json");
-  $project_thumbnails = json_decode($project_thumbnails_json_string, true);
+  function get_json_str($url) {
+    $crl = curl_init();
+    curl_setopt($crl, CURLOPT_URL, $url);
+    curl_setopt($crl, CURLOPT_RETURNTRANSFER, 1);
+    curl_setopt($crl, CURLOPT_SSL_VERIFYPEER, 0);
+    curl_setopt($crl, CURLOPT_SSL_VERIFYHOST, 0);
+    curl_setopt($crl, CURLOPT_CONNECTTIMEOUT, 10);
+    curl_setopt($crl, CURLOPT_TIMEOUT, 10);
+    $json = curl_exec($crl);
+    return $json;
+  }
+
+  $root_url = 'https://' . $_SERVER['HTTP_HOST'] . '/aau/portfolio/';
+  
+  $project_thumbnails_json_str = get_json_str("https://janelleweiwei.org/aau/portfolio/model/project_thumbnails.json");  
+  $project_thumbnails = json_decode($project_thumbnails_json_str, true);
 
   $thumbnails_array = array();
   foreach ($project_thumbnails as $key => $value) {

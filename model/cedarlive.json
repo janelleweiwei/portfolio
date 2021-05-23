@@ -131,13 +131,7 @@
     },
     {
       "section": {
-        "children": [
-          {
-            "container": {
-              "title": "How was CedarLive Designed?"
-            }
-          }
-        ]
+        "title": "How was CedarLive Designed?"
       }
     },
     {
@@ -284,11 +278,10 @@
               "children": [
                 {
                   "container": {
-                    "subtitle": "Experts’ Needs",
-                    "style": "text-align:center;",
-                    "messages": [
-                      "- Why? Engrain and expand knowledge, established reputations as an authority, and increase professional value.",
-                      "- How? Becoming a mentor, writing articles, training others, being a resource, and taking the lead."
+                    "subtitle": "<b>Experts’ Needs</b>",
+                    "list": [
+                      "Why? Engrain and expand knowledge, established reputations as an authority, and increase professional value.",
+                      "How? Becoming a mentor, writing articles, training others, being a resource, and taking the lead."
                     ]
                   }
                 }
@@ -302,11 +295,11 @@
               "children": [
                 {
                   "container": {
-                    "subtitle": "Learners’ Frustrations",
+                    "subtitle": "<b>Learners’ Frustrations</b>",
                     "style": "text-align:center;",
-                    "messages": [
-                      "- Arrange from $100 - $150 per hour",
-                      "- Expensive for students and new graduates"
+                    "list": [
+                      "Averages $100 - $150 per hour",
+                      "Expensive for students and new graduates"
                     ]
                   }
                 }
@@ -635,32 +628,16 @@
       "section": {
         "style": "background-color:#7ec4ad;",
         "theme_class": "dark",
-        "title": "Iterations"
+        "title": "Site Map"
       }
     },
     {
       "section": {
-        "direction": "row",
+        "subtitle": "I generated a site map to make sure I stayed focused on the features and screens that were essential to the app, understand the architecture, and ensure that the navigation is structured intuitively for users.",
         "children": [
           {
             "container": {
-              "style": "text-align: center;",
-              "title": "Task 1",
-              "subtitle": "Post a comment during a live-streaming"
-            }
-          },
-          {
-            "container": {
-              "style": "text-align: center;",
-              "title": "Task 2",
-              "subtitle": "Post a review for other’s work"
-            }
-          },
-          {
-            "container": {
-              "style": "text-align: center;",
-              "title": "Task 3",
-              "subtitle": "Follow speakers and get future notifications"
+              "image": "../images/cedarlive_sitemap.png"
             }
           }
         ]
@@ -668,7 +645,190 @@
     },
     {
       "section": {
-        "image": "../images/cedarlive_result.png",
+        "style": "background-color:#7ec4ad;",
+        "theme_class": "dark",
+        "title": "User Flows"
+      }
+    },
+    {
+      "section": {
+        "children": [
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "style": "text-align: center;",
+                    "title": "Task 1",
+                    "subtitle": "Post a comment during a live-streaming"
+                  }
+                },
+                {
+                  "container": {
+                    "style": "text-align: center;",
+                    "title": "Task 2",
+                    "subtitle": "Post a review for other’s work"
+                  }
+                },
+                {
+                  "container": {
+                    "style": "text-align: center;",
+                    "title": "Task 3",
+                    "subtitle": "Follow speakers and get future notifications"
+                  }
+                }
+              ]
+            }
+          }, 
+          {
+            "container": {
+              "image": "../images/cedarlive_flow1.png"
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_flow2.png"
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_flow3.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#7ec4ad;",
+        "theme_class": "dark",
+        "title": "Sketches + Guerilla Testing"
+      }
+    },
+    {
+      "section": {
+        "children": [
+          {
+            "container": {
+              "subtitle": "Before investing in wireframes, I needed to validate the structure of my app. I sketched up some screens that walked through the onboarding red route, put them together into a prototype with POP by Marvel, and tested it with the five nearest people."
+            }
+          },
+          {
+            "container": {
+              "messages": [
+                "<b>Important findings:</b>"
+              ],
+              "list": [
+                "Task 1: One participant failed on the home (live) page. Recommendation: redesign the cards on the homepage",
+                "Task 2: Two participates didn’t see the instructions, so they failed on the second step. Recommendation: let instructions pop-up, and simplify the review process.",
+                "Task 3: Three participates clicked the wrong page. Recommendation: multiple ways to follow a person"
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_sketches.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#7ec4ad;",
+        "theme_class": "dark",
+        "title": "Wireframes + Wireflows"
+      }
+    },
+    {
+      "section": {
+        "children": [
+          {
+            "container": {
+              "messages": [
+                "<b>Wireframes:</b> With my structure confirmed, I moved on to the full wireframes for both red routes. The goal of this user testing is to see the functionality and if it’s easy for the user to complete tasks.",
+                "<b>Wireflows:</b> The next natural step was to organize the wireframes so that they mapped out the routes that every user would travel when using the app. It allowed me to make sure I had all the screens I needed and curbed any screens I wanted to design that wasn’t essential."
+              ]
+            }
+          },
+          {
+            "container": {
+              "messages": [
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_wireframe1.jpeg",
+              "messages": [
+                " ",
+                "Task 1. Post a comment during a live streaming"
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_wireframe2.png",
+              "messages": [
+                " ",
+                "Task 2. Post a review and rating"
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_wireframe3.png",
+              "messages": [
+                " ",
+                "Task 3. Follow a user"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#7ec4ad;",
+        "theme_class": "dark",
+        "title": "Styleguide"
+      }
+    },
+    {
+      "section": {
+        "children": [
+          {
+            "container": {
+              "list": [
+                "Before turning my low-fidelity wireframes into hi-fidelity mockups, I created a style guide to aid in the visual design process. ",
+                "I wanted the UI of this website to be gentle, eye-catching, and approachable. I chose to go in this direction because while the website's nature is trustworthy and comfortable, I want users to feel relaxed, which would reduce their stress.",
+                "The logo was inspired by the leaves of the cedar."
+              ]
+            }
+          },
+          {
+            "container": {
+              "image": "../images/cedarlive_styleguide1.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#7ec4ad;",
+        "theme_class": "dark",
+        "title": "User Testing and Iteration"
+      }
+    },
+    {
+      "section": {
+        "image": "../images/cedarlive_usertesting.jpeg"
+      }
+    },
+    {
+      "section": {
         "title": "Result",
         "subtitle": "After three weeks of user research, analysis and redesign, I validated the assumptions and changes I had made. I did this by testing my clickable prototype with five new users. The results are:",
         "messages": [
@@ -680,21 +840,11 @@
           "&nbsp; &nbsp; 5 out of 5 users sent a comment to interact with the speaker in 10 seconds and chose to get future notifications when an instruction move in to guide them.",
           "4. Reduced repetitive steps to encourage people to complete the post-review process.",
           "&nbsp; &nbsp; 5 out of 5 users easily submit their reviews and ratings for a work."
-        ]
-      }
-    },
-    {
-      "section": {
-        "title": "Style guide",
-        "messages": [
-          "- Before turning my low-fidelity wireframes into hi-fidelity mockups, I created a style guide to aid in the visual design process.",
-          "- I wanted the UI of this website to be gentle, eye-catching, and approachable. I chose to go in this direction because while the website's nature is trustworthy and comfortable, I want users to feel relaxed, which would reduce their stress.",
-          "- The logo was inspired by the leaves of the cedar."
         ],
         "children": [
           {
             "container": {
-              "image": "../images/cedarlive_styleguide1.png"
+              "image": "../images/cedarlive_result.png"
             }
           }
         ]
@@ -729,19 +879,19 @@
           {
             "container": {
               "subtitle": "Next steps.",
-              "messages": [
-                "- If I were to take this project further, I would implement certain high-priority features like my profile-editing, report other users or speakers, and do a few more rounds of A/B testings.",
-                "- Users may come from different countries and speak other languages, so it would be beneficial to design subtitles features in live streaming for users of different nationalities."
+              "list": [
+                "If I were to take this project further, I would implement certain high-priority features like my profile-editing, report other users or speakers, and do a few more rounds of A/B testings.",
+                "Users may come from different countries and speak other languages, so it would be beneficial to design subtitles features in live streaming for users of different nationalities."
               ]
             }
           },
           {
             "container": {
               "subtitle": "Conclusion.",
-              "messages": [
-                "- It made sense to design this app. In this project, I had three user testing rounds, which reflected where users got stuck or what they liked/didn't like about the app. ",
-                "- This project showed me how vital user research and user testing are to create a standout product.",
-                "- I learned a lot about analytics! I learned a lot about analytics! Putting together all the data I've collected from people and guiding me to better designs has taught me to be more intentional in my design process."
+              "list": [
+                "It made sense to design this app. In this project, I had three user testing rounds, which reflected where users got stuck or what they liked/didn't like about the app. ",
+                "This project showed me how vital user research and user testing are to create a standout product.",
+                "I learned a lot about analytics! I learned a lot about analytics! Putting together all the data I've collected from people and guiding me to better designs has taught me to be more intentional in my design process."
               ]
             }
           }

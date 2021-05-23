@@ -6,7 +6,7 @@
   <nav class="navbar nav-pills topnav navbar-expand-sm navbar-light bg-light" id="myTopnav"  style="width: 100% z-index: 50000">
     <div class="container-fluid">
       <a class="navbar-brand" href="<?=$root_url . 'index.php';?>"><img id="nav-logo" src="<?=$root_url . 'images/logo.png';?>"></a>
-       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
 
@@ -23,9 +23,10 @@
               <li><a class="dropdown-item" href="<?=$root_url . 'views/cedarlive.php';?>">CedarLive</a></li>
               <li><a class="dropdown-item" href="<?=$root_url . 'views/gramcity.php';?>">GramCity</a></li>
               <li><a class="dropdown-item" href="<?=$root_url . 'views/airhome.php';?>">AirHome</a></li>
+               <li><a class="dropdown-item" href="<?=$root_url . 'views/crunch.php';?>">Crunch</a></li>
               <li><a class="dropdown-item" href="<?=$root_url . 'views/insitu.php';?>">In Situ</a></li>
               <li><a class="dropdown-item" href="<?=$root_url . 'views/stellantis.php';?>">Gaia</a></li>
-              <li><a class="dropdown-item" href="http://www.janelleweiwei.org/aau/wnm601/m15/">Filoli Website</a></li>
+              <li><a class="dropdown-item" href="<?=$root_url . 'views/feather.php';?>">Feather</a></li>
             </ul>
           </li>
           <li class="nav-item">

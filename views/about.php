@@ -12,7 +12,7 @@
     <?php include "navigation.php"; ?>
 
     <? 
-      echo getSectionsHTML("model/about.json");
+      echo getSectionsHTML('model/about.json');
     ?>
     
     <?php include "footer.php";?>

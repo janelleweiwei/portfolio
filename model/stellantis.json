@@ -135,6 +135,7 @@
           },
           {
             "container": {
+              "video_style": "padding: 30%",
               "video": "https://www.youtube.com/embed/EY75bwynQ_8?rel=0&controls=1&autoplay=0&mute=0&start=0"
             }
           }
@@ -147,6 +148,7 @@
         "children": [
           {
             "container": {
+              "video_style": "padding: 30%",
               "video": "https://www.youtube-nocookie.com/embed/ulNbxqFViDo?rel=0&controls=1&autoplay=0&mute=0&start=0"
             }
           }
@@ -163,6 +165,7 @@
               "image_style": "max-height: 300px;",
               "image": "../images/stellantis/team1.png",
               "subtitle": "Tanuj Kaushik",
+              "messages": ["<span style='font-size: 14px;'>Industrial Design</span>"],
               "align_items": "center"
             }
           },
@@ -171,6 +174,7 @@
               "image_style": "max-height: 300px;",
               "image": "../images/stellantis/team2.png",
               "subtitle": "Alejandro Rivera",
+              "messages": ["<span style='font-size: 14px;'>Industrial Design</span>"],
               "align_items": "center"
             }
           },
@@ -179,6 +183,7 @@
               "image_style": "max-height: 300px;",
               "image": "../images/stellantis/team3.png",
               "subtitle": "Molly Michalski",
+              "messages": ["<span style='font-size: 14px;'>Interior Architecture Design</span>"],
               "align_items": "center"
             }
           },
@@ -187,6 +192,7 @@
               "image_style": "max-height: 300px;",
               "image": "../images/stellantis/team4.png",
               "subtitle": "Janelle Li",
+              "messages": ["<span style='font-size: 14px;'>Web Design & New Media</span>"],
               "align_items": "center"
             }
           }

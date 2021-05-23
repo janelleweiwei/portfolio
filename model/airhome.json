@@ -9,18 +9,31 @@
         "children": [
           {
             "container": {
-              "subtitle": "THE PROBLEM",
-              "align_items": "center",
               "children": [
                 {
                   "container": {
                     "direction": "row",
-                    "align_items": "center",
+                    "align_child_items": "center",
                     "children": [
                       {
                         "container": {
-                          "style": "padding-top: 30px",
-                          "align_items": "center",
+                          "subtitle": "<b>The Problems</b>"
+                        }
+                      },
+                      {
+                        "container": {
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "direction": "row",
+                    "align_child_items": "center",
+                    "children": [
+                      {
+                        "container": {
                           "image": "../images/airhome/sexual_harassment2.png",
                           "image_style": "max-height: 300px;"
                         }
@@ -28,10 +41,10 @@
                       {
                         "container": {
                           "subtitle": "Women on airplanes are always overwhelmed and scared when they encounter harassment or unfair treatment.",
-                          "messages": [
-                            "- they are in a small space. ",
-                            "- surrounded by strangers they don't know.",
-                            "- there is no evidence to prove the treatment they have been subjected to."
+                          "list": [
+                            "They are in a small space. ",
+                            "Surrounded by strangers they don't know.",
+                            "There is no evidence to prove the treatment they have been subjected to."
                           ]
                         }
                       }
@@ -41,11 +54,10 @@
                 {
                   "container": {
                     "direction": "row",
+                    "align_child_items": "center",
                     "children": [
                       {
                         "container": {
-                          "style": "padding-top: 30px",
-                          "align_items": "center",
                           "image": "../images/airhome/sexual_harassment3.png",
                           "image_style": "max-height: 300px;"
                         }
@@ -53,10 +65,10 @@
                       {
                         "container": {
                           "subtitle": "Women on airplanes are always overwhelmed and scared when they encounter harassment or unfair treatment.",
-                          "messages": [
-                            "- they are in a small space. ",
-                            "- surrounded by strangers they don't know.",
-                            "- there is no evidence to prove the treatment they have been subjected to."
+                          "list": [
+                            "They are in a small space. ",
+                            "Surrounded by strangers they don't know.",
+                            "There is no evidence to prove the treatment they have been subjected to."
                           ]
                         }
                       }
@@ -73,7 +85,7 @@
                 {
                   "container": {
                     "style": "text-align:center",
-                    "subtitle": "My Role",
+                    "subtitle": "<b>My Role</b>",
                     "messages": [
                       "As a solo UI/UX Designer, I conducted research, designed information architecture, wireframing, ideation, evaluation, visual design, low-high prototyping, and user testing."
                     ]
@@ -82,7 +94,7 @@
                 {
                   "container": {
                     "style": "text-align:center",
-                    "subtitle": "Tools",
+                    "subtitle": "<b>Tools</b>",
                     "messages": [
                       "Figma, photoshop, Illustrator, Miro, Marvels"
                     ]
@@ -91,7 +103,7 @@
                 {
                   "container": {
                     "style": "text-align:center",
-                    "subtitle": "Timeline",
+                    "subtitle": "<b>Timeline</b>",
                     "messages": [
                       "Four months (Sep 1st, 2021 - Dec 15th, 2021)"
                     ]
@@ -112,9 +124,8 @@
           {
             "container": {
               "style": "text-align:center",
-              "align_items": "center",
               "image": "../images/airhome/outcome1.png",
-              "image_style": "max-height: 200px; max-width: 100%",
+              "image_style": "height: 180px; object-fit: contain;",
               "subtitle": "Help Center",
               "messages": [
                 "Enhanced passenger safety"
@@ -124,9 +135,8 @@
            {
             "container": {
               "style": "text-align:center",
-              "align_items": "center",
               "image": "../images/airhome/outcome2.png",
-              "image_style": "max-height: 200px; max-width: 100%",
+              "image_style": "height: 180px; object-fit: contain;",
               "subtitle": "Chat Center",
               "messages": [
                 "Increased the fun and communication between passengers on flights"
@@ -136,9 +146,8 @@
            {
             "container": {
               "style": "text-align:center",
-              "align_items": "center",
               "image": "../images/airhome/outcome3.png",
-              "image_style": "max-height: 200px; max-width: 100%",
+              "image_style": "height: 180px; object-fit: contain;",
               "subtitle": "Personalized Profile",
               "messages": [
                 "Highlighted the characteristics and needs of each passengers "
@@ -269,30 +278,30 @@
                 {
                   "container": {
                     "subtitle": "POV 1",
-                    "messages": [
-                      "- User: Sam from China has been flying by long-haul flights around 5 times a year.",
-                      "- Need: He needs to connect with liked-minded passengers.",
-                      "- Insights: He joined a group chat and added a friend in that group by Airhome chat center, because social bonds are an interesting way to utilize the time on the filght. "
+                    "list": [
+                      "User: Sam from China has been flying by long-haul flights around 5 times a year.",
+                      "Need: He needs to connect with liked-minded passengers.",
+                      "Insights: He joined a group chat and added a friend in that group by Airhome chat center, because social bonds are an interesting way to utilize the time on the filght. "
                     ]
                   }
                 },
                 {
                   "container": {
                     "subtitle": "POV 2",
-                    "messages": [
-                      "- User: Christina from Korea starts her first-time long-haul flight.",
-                      "- Need: She needs to report other passengers' behaviors privately and safely.",
-                      "- Insights: She reported the passenger who sat next to her with photo evidences by Airhome’s help center, because this is the most comfortable and safest way for her to keep herself safe and get an immediate help."
+                    "list": [
+                      "User: Christina from Korea starts her first-time long-haul flight.",
+                      "Need: She needs to report other passengers' behaviors privately and safely.",
+                      "Insights: She reported the passenger who sat next to her with photo evidences by Airhome’s help center, because this is the most comfortable and safest way for her to keep herself safe and get an immediate help."
                     ]
                   }
                 },
                 {
                   "container": {
                     "subtitle": "POV 3",
-                    "messages": [
-                      "- User: Rachel from the US has been flying by long-haul flights around three times a year.",
-                      "- Need: She needs only to let flight attendants know she is a disabled single mom.",
-                      "- Insights: She created a personalized profile with tags because this is the most efficient way for her to Show her characteristics"
+                    "list": [
+                      "User: Rachel from the US has been flying by long-haul flights around three times a year.",
+                      "Need: She needs only to let flight attendants know she is a disabled single mom.",
+                      "Insights: She created a personalized profile with tags because this is the most efficient way for her to Show her characteristics"
                     ]
                   }
                 }
@@ -309,21 +318,29 @@
           {
             "container": {
               "align_items": "center",
-              "messages": [
-                "Desirable improvements for long-haul flights"
-              ],
+              "subtitle": "Desirable improvements for long-haul flights",
               "direction": "row",
               "children": [
                 {
                   "container": {
                     "subtitle": "User Needs",
-                    "messages": ["- Companionship","- Discover new friends on the plane","- Self-protection","- Accessible Communication","- Privicy in a limit space"]
+                    "list": [
+                      "Companionship",
+                      "Discover new friends on the plane",
+                      "Self-protection",
+                      "Accessible Communication",
+                      "Privicy in a limit space"]
                   }
                 },
                 {
                   "container": {
                     "subtitle": "User Goals",
-                    "messages": ["- Join an active chat group","- Add a friend with same interests","- Stay safe","- Get a help directly and quickly","- Not to be disturbed"]
+                    "list": [
+                      "Join an active chat group",
+                      "Add a friend with same interests",
+                      "Stay safe",
+                      "Get a help directly and quickly",
+                      "Not to be disturbed"]
                   }
                 }
               ]
@@ -362,8 +379,7 @@
         "style": "background-color:#F5FBFE",
         "align_items": "center",
         "title": "Opportunity",
-        "align_items": "center",
-        "subtitle": "How might we create a safe, enjoyable, and accessible flight community for all passengers?"
+        "subtitle": "How could we create a safe, enjoyable, and accessible flight community for all passengers?"
       }
     },
     {
@@ -376,13 +392,140 @@
             "container": {
               "image": "../images/airhome/sitemap.png"
             }
+          },
+          {
+            "container": {
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "subtitle": "💬 Chat Center",
+                    "messages": [
+                      "Join a group chat and add a friend. 🧑‍🤝‍🧑"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "💁 Help Center",
+                    "messages": [
+                      "Report an Emergency with evidence. 🆘 "
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "⭐ Profile Page",
+                    "messages": [
+                      "Build a highly personalized profile. 🔥"
+                    ]
+                  }
+                }
+              ]
+            }
           }
         ]
       }
     },
     {
       "section": {
-        "style": "background-color:#FFEFF6",
+        "style": "background-color:#F5FBFE",
+        "align_items": "center",
+        "title": "Sketches",
+        "subtitle": "I then sketched out what the above three tasks would look like visually."
+      }
+    },
+    {
+      "section": {
+        "images": [
+          "../images/airhome/sketch1.png",
+          "../images/airhome/sketch2.png",
+          "../images/airhome/sketch3.png"
+        ],
+        "carousel_style": "full_width",
+        "carousel_height": "400px"
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#F5FBFE",
+        "align_items": "center",
+        "title": "Wireframe",
+        "subtitle": "Next, I generated wireframes to establish a blueprint for the final design."
+      }
+    },
+    {
+      "section": {
+        "images": [
+          "../images/airhome/wireframe1.png",
+          "../images/airhome/wireframe2.png",
+          "../images/airhome/wireframe3.png"
+        ],
+        "carousel_style": "full_width",
+        "carousel_height": "280px"
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#F5FBFE",
+        "title": "Wireframe A/B Testing"
+      }
+    },
+    {
+      "section": {
+        "messages": [
+          "For passengers to get help quickly in case of emergency, I send out a comparison of the A/B version. Because I wanted to know which way users would find it more efficient.",
+          "82% of participates like Version B because they like to get help with only one click.",
+          "People said:"
+        ],
+        "list": [
+          "I want a service fast as soon as possible",
+          "I want to know what is emergency and general before click"
+        ],
+        "children": [
+          {
+            "container": {
+              "image": "../images/airhome/B+Testing_Home.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#F5FBFE",
+        "title": "Hi-Fidelity A/B Testing"
+      }
+    },
+    {
+      "section": {
+        "messages": [
+          "To better recommend group chat for passengers, I send out a comparison of the A/B version. Because I wanted to know which way users prefer to be matched.",
+          "75% of participants like Version B because they only want to chat with people with the same interests.",
+          "People said:"
+        ],
+        "list": [
+          "It is unnecessary to show the groups I am not interested in.",
+          "B version is clearer and makes me take less time to reach the wanted chat."
+        ],
+        "children": [
+          {
+            "container": {
+              "image": "../images/airhome/B+Testing_Chat.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#F5FBFE",
+        "title": "Final version"
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#F5FBFE",
         "direction": "row",
         "children": [
           {
@@ -403,11 +546,11 @@
               "children": [
                 {
                   "container": {
-                    "messages": [
-                      "- Report an emergency immedetely or submit it with a photo evidence and details.",
-                      "- Tell flight attendants the problem details and categories quickly.  ",
-                      "- Track your case anytime.",
-                      "- Chat with a case assistant if you have any questions."
+                    "list": [
+                      "Report an emergency immedetely or submit it with a photo evidence and details.",
+                      "Tell flight attendants the problem details and categories quickly.  ",
+                      "Track your case anytime.",
+                      "Chat with a case assistant if you have any questions."
                     ]
                   }
                 }
@@ -419,7 +562,7 @@
     },
     {
       "section": {
-        "style": "background-color:#F4FFEF",
+        "style": "background-color:#F5FBFE",
         "direction": "row",
         "children": [
           {
@@ -454,7 +597,7 @@
     },
     {
       "section": {
-        "style": "background-color:#FFFCEF",
+        "style": "background-color:#F5FBFE",
         "direction": "row",
         "children": [
           {
@@ -475,10 +618,10 @@
               "children": [
                 {
                   "container": {
-                    "messages": [
-                      "- User has control and freedom to show to public or not",
-                      "- Create a personal or social tag for different audience",
-                      "- Intuitive navigation"
+                    "list": [
+                      "User has control and freedom to show to public or not",
+                      "Create a personal or social tag for different audience",
+                      "Intuitive navigation"
                     ]
                   }
                 }
@@ -490,7 +633,43 @@
     },
     {
       "section": {
+        "style": "background-color:#F5FBFE",
         "image": "../images/airhome/privacy.png"
+      }
+    },
+    {
+      "section": {
+        "title": "Play with Prototype",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "videos": [
+                "https://www.figma.com/embed?embed_host=astra&url=https://www.figma.com/proto/SR6BicS42NG1frFQyBDsQW/WNM-700_AirHome_Zhuwei-Li?node-id=1759%3A2162&page-id=1759%3A1&scaling=scale-down&viewport=1239%2C851%2C0.08201643824577332",
+                "https://www.figma.com/embed?embed_host=astra&url=https://www.figma.com/proto/SR6BicS42NG1frFQyBDsQW/WNM-700_AirHome_Zhuwei-Li?node-id=1763%3A450&page-id=1763%3A0&scaling=scale-down&viewport=5448%2C2298%2C0.4895157814025879",
+                "https://www.figma.com/embed?embed_host=astra&url=https://www.figma.com/proto/SR6BicS42NG1frFQyBDsQW/WNM-700_AirHome_Zhuwei-Li?node-id=1763%3A8599&page-id=1763%3A8141&scaling=scale-down&viewport=3451%2C678%2C0.30942487716674805"
+              ],
+              "carousel_style": "full_width",
+              "carousel_height": "1000px"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#F5FBFE",
+        "title": "Final Thoughts & Takeaways",
+        "children": [
+          {
+            "container": {
+              "list": [
+                "Passengers will no longer have to worry about panicking and being silent when they are in danger or treated unfairly.",
+                "Being connected with other passengers on the same flight can make long-haul flights more fun."
+              ]
+            }
+          }
+        ]
       }
     }
   ]

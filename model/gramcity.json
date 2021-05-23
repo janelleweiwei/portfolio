@@ -4,40 +4,38 @@
       "section": {
         "title": "Introduction",
         "messages": [
-          "This project is a design sprint with a five-day process for answering critical business questions through design, prototyping, and testing ideas with customers. ",
-          "GramCity is a photo editing app that helps users easily make their photos look awesome before sharing them on Instagram or other social media networks. "
+          "This project is a 5-day design sprint whose main goal is to address critical business questions through design, prototyping, and testing ideas with customers. ",
+          "GramCity is a photo editing app that helps users easily make their photos look awesome before sharing them on Instagram or other social media platforms. "
         ],
         "direction": "row",
         "children": [
           {
             "container": {
               "style": "text-align:center",
-              "align_items": "center",
-              "subtitle": "Project Type",
+              "subtitle": "<b>Project Type</b>",
               "messages": ["Design Sprint"]
             }
           },
           {
             "container": {
               "style": "text-align:center",
-              "align_items": "center",
-              "subtitle": "My Role",
-              "messages": ["Using the Google Sprint approach developed by Google Ventures I conducted a solo sprint, working on the design, research, testing, and iterations on this byproduct of GramCity. "]
+              "subtitle": "<b>My Role</b>",
+              "messages": [
+                "A solo designer who was responsible for researching, designing, and user testing. "
+              ]
             }
           },
           {
             "container": {
               "style": "text-align:center",
-              "align_items": "center",
-              "subtitle": "Tools",
+              "subtitle": "<b>Tools</b>",
               "messages": ["Figma, Miro, Marvel"]
             }
           },
           {
             "container": {
               "style": "text-align:center",
-              "align_items": "center",
-              "subtitle": "Project duration",
+              "subtitle": "<b>Project duration</b>",
               "messages": ["5 days"]
             }
           }
@@ -56,27 +54,37 @@
     {
       "section": {
         "title": "Project Overview",
-        "messages": [
-          "GramCity is initially a photo editing app that helps users easily make their photos look great before posting them on social media networks, and now the startup wants to help people find the most Instagram-able locations to take a photo in any city, such as tourist attraction, iconic architecture, public art, and anywhere someone could take good photos. The new feature should help the users find awesome places to take photos, wherever they are."
-        ],
-        "direction": "row",
         "children": [
           {
             "container": {
-              "subtitle": "Design Considerations",
               "messages": [
-                "- This is a feature for the GramCity mobile app.",
-                "- The new feature should help users from finding the most Instagram-able location to then getting the shot.",
-                "- Build an active community of users to find and share their favorite locations."
+                "GramCity was originally a photo editing app that helps edit their photos before posting them on social media platforms; now the company wants to add an extra feature which is to help people find the most Instagram-able locations to take a photo in any city, such as tourist attraction, iconic architecture, public art, and anywhere someone could take good photos. The new feature should help the users find awesome places to take photos, wherever they are."
               ]
             }
           },
           {
             "container": {
-              "subtitle": "Project Goals",
-              "messages": [
-                "- User goals are to locate an awesome place to take photos anywhere and share the favorite locations and photos with others.",
-                "- Business goal is to create a new feature which a stand-alone function, but wishes to see a referral back to our original product - a photo editing app. "
+              "direction": "row",
+              "children": [
+                {
+                  "container": {
+                    "subtitle": "Design Considerations",
+                    "list": [
+                      "This is a feature for the GramCity mobile app.",
+                      "The new feature should help users through the journey from finding the most Instagram-able location to getting the photo shot.",
+                      "Build an active community of users to find and share their favorite locations."
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "subtitle": "Project Goals",
+                    "list": [
+                      "(User goal) To help people locate an awesome place to take photos anywhere and share the favorite locations and photos with others.",
+                      "(Business goal) To create a new stand-alone feature to locate photo locations, but at the same time is able to bring user back to the original photo editing feature. "
+                    ]
+                  }
+                }
               ]
             }
           }
@@ -88,7 +96,7 @@
         "title": "Research & Highlights",
         "messages": [
           "The primary goal of this survey is to understand - <q><strong>Tell us about how you find great new places to take a photo</strong></q>.",
-          "Eleven people participated in this research interview, and I have divided them into <strong>four types</strong> of users."
+          "Eleven people participated in this research interview. They can be categorized into <strong>four types</strong> of users."
         ],
         "children": [
           {
@@ -116,29 +124,38 @@
           {
             "container": {
               "title": "Mapping and HMW Statement",
-              "messages": [
-                "Then, I mapped out a possible end-to-end experience a user might have with the product to understand the user needs and articulate specific questions that need to be addressed in the design. ",
-                "・How might we help users find the type of photo-op they like? ",
-                "・How might we motivate users to share their photos on the platform?",
-                "・How might we reduce the conflicts between taking photos and traveling?",
-                "The key aspects to a delightful experience for:",
-                " &nbsp; &nbsp; 1. Being able to use CityGram to explore locations and photos by categories and locations. ",
-                " &nbsp; &nbsp; 2. Showing basic information and photos of the locations.",
-                " &nbsp; &nbsp; 3. Being able to save photo inspirations to view at a later time.",
-                " &nbsp; &nbsp; 4. Inspiring users to get direction to the place."
+              "children": [
+                {
+                  "container": {
+                    "messages": [
+                      "Then, I mapped out a possible end-to-end experience a user might have with the product to understand the user needs and articulate specific questions that need to be addressed in the design. "
+                    ],
+                    "list": [
+                      "How might we help users find the type of photo-op they like? ",
+                      "How might we motivate users to share their photos on the platform?",
+                      "How might we reduce the conflicts between taking photos and traveling?"
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "messages": [
+                      "The key aspects to a delightful experience are:"
+                    ],
+                    "ordered_list": [
+                      " Being able to use CityGram to explore locations and photos by categories and locations. ",
+                      " Showing basic information and photos of the locations.",
+                      " Being able to save photo inspirations to view at a later time.",
+                      " Inspiring users to get direction to the place."
+                    ]
+                  }
+                }
               ]
             }
           },
           {
             "container": {
               "image": "../images/gramcity_mapping.png"
-            }
-          },
-          {
-            "container": {
-              "messages": [
-                "I jumped right into imagining possible solutions."
-              ]
             }
           }
         ]
@@ -159,7 +176,7 @@
         "title": "Lightning Demo",
         "align_items": "center",
         "messages": [
-          "Before sketching out my flows, I conducted a quick competitive analysis of existing products. I was specifically looking at products that have a great categorization and map function, where users can find things easily on the app and locate places.",
+          "Before sketching out my flows, I conducted a quick competitive analysis of existing products. I was specifically looking at products that have great categorization and map functions, where users can find things easily on the app and locate places.",
           "<strong>App inspirations:</strong>",
           "(Zenly, Bumble, Weibo, Expedia, Xiaohongshu, Airbnb, Instagram, Zillow)"
         ],
@@ -186,23 +203,25 @@
             "container": {
               "title": "Create a solution sketch",
               "messages": [
-                "Finally, I sketched out a solution sketch, a three-panel board: ",
-                "(1) the screen that comes before my critical screen,",
-                "(2) the critical screen itself,",
-                "(3) the screen that comes after my critical screen"
+                "Finally, I sketched out a solution sketch, a three-panel board:"
+              ],
+              "ordered_list": [
+                "The screen that comes before my critical screen,",
+                "The critical screen itself,",
+                "The screen that comes after my critical screen"
+              ]
+            }
+          },
+          {
+            "container": {
+              "messages": [
+                "Those sketches would help me come up with several possible outcome solutions to the most critical screens of the prototype."
               ]
             }
           },
           {
             "container": {
               "image": "../images/gramcity_solutionsketch2.png"
-            }
-          },
-          {
-            "container": {
-              "messages": [
-                "Mapping_best addresses the problem and conveys the solution"
-              ]
             }
           }
         ]
@@ -223,10 +242,12 @@
         "messages": [
           "As a solo designer for this sprint project, instead of pitching my design ideas with my teammates, I reviewed all the design ideas from yesterday, evaluated them, and fleshed out a storyboard for the final solution I chose.",
           "My work focused on revisiting problem statements, espeically on how to help travel-lovers like Nick find the photo-ops they are interested in.",
-          "Below are the design strategies used to align with the product goals and to answer the problem statements",
-          "・Add categories: Different categories that help users find their desired photo-ops more easily. ",
-          "・Add location on the map: Users can more intuitively select and find the most desirable place and encourage them to get direction to the place.",
-          "・Add images sharing: The newly posted photo will feature on the platform where other people can see when they click on the detail page of this photo-op."
+          "Below are the design strategies used to align with the product goals and to answer the problem statements"
+        ],
+        "list": [
+          "<b>Add categories:</b> Different categories that help users find their desired photo-ops more easily. ",
+          "<b>Add location on the map:</b> Users can more intuitively select and find the most desirable place and encourage them to get direction to the place.",
+          "<b>Add images sharing:</b> The newly posted photo will feature on the platform where other people can see when they click on the detail page of this photo-op."
         ],
         "children": [
           {
@@ -255,16 +276,22 @@
     },
     {
       "section": {
-        "messages": [
-          "I’ll be building a prototype, which <em>Design Sprint</em> author John Zeratsky calls “a realistic façade” to test with users.",
-          "The prototype shows how a user will navigate this feature of finding a photo location, and how they locate what’s nearby. "
-        ],
         "children": [
+          {
+            "container": {
+              "messages": [
+                "I’ll be building a prototype, which <em>Design Sprint</em> author John Zeratsky calls “a realistic façade” to test with users.",
+                "The prototype shows how a user will navigate this feature of finding a photo location, and how they locate what’s nearby. "
+              ],
+              "button_text": "Link to my prototype (version 1)",
+              "button_url": "https://www.figma.com/proto/wUqsdbN2987sJiZ9N12oP4/GramCity-Design-Sprint?node-id=12%3A57&scaling=scale-down&viewport=483%2C521%2C0.2603032886981964"
+            }
+          },
           {
             "container": {
               "image": "../images/gramcity_feature1.png",
               "messages": [
-                "The first feature is to search and filter for locations by keywords to take a photo in any city based on their needs. (Popular, touristy, must-have, hidden gems, movie scenes, historic happened, visual appeal_murals, etc.)"
+                "<b>The first feature</b> is to search and filter for locations by keywords to take a photo in any city based on their needs. (Popular, touristy, must-have, hidden gems, movie scenes, historic happened, visual appeal_murals, etc.)"
               ]
             }
           },
@@ -272,8 +299,8 @@
             "container": {
              "image": "../images/gramcity_feature2.png",
               "messages": [
-                "The second feature is for most users to find nearby places showing on the map and get directions with estimated time & distance.",
-                "The third feature is to let the user check location’s pictures and descriptions before they start to navigate."
+                "<b>The second feature</b> is for most users to find nearby places showing on the map and get directions with estimated time & distance.",
+                "<b>The third feature</b> is to let the user check location’s <b>pictures and descriptions</b> before they start to navigate."
               ]
             }
           }
@@ -291,10 +318,11 @@
     },
     {
       "section": {
+        "title": "Design Strategy",
         "children": [
           {
             "container": {
-              "subtitle": "Goals",
+              "subtitle": "<b>Goals</b>",
               "messages": [
                 "During the user testing, I wanted to find out whether this feature is easy to navigate and understand. We want to understand whether the user will actually locate themselves on the map and see what’s nearby."
               ]
@@ -302,18 +330,19 @@
           },
           {
             "container": {
-              "subtitle": "Some expressed concerns: ",
+              "subtitle": "<b>Some expressed concerns:</b>",
               "messages": [
                 "(1) Unnecessary steps and lack of interactivity. (From event page to direction page)",
                 "(2) Multi-selectable features are not prominent. (Search page)",
                 "(3) Reduce unnecessary images. (Map page)",
-                "(4) Reconsider the importance and priority of icons (bottom navigation bar)."              
+                "(4) Reconsider the importance and priority of icons (bottom navigation bar).",
+                "<a href='https://drive.google.com/corp/drive/folders/1OrRI9_kA0eYtW0mEk5uyJ-aXCmrVDbwx'>Link to Recording</a>"
               ]
             }
           },
           {
             "container": {
-              "subtitle": "Results:",
+              "subtitle": "<b>Results:</b>",
               "messages": [
                 "My user testing was very successful; they all completed the tasks and understood the purpose of this feature of the app, and seemed excited for it to be in existence for current use. ",
                 "This lofty dream was in fact valuable as it provided us the opportunity to create this adventurous experience for traveling users."           
@@ -330,11 +359,16 @@
     },
     {
       "section": {
-        "style": "background-color:#efd467",
-        "theme_class": "dark",
         "align_items": "center",
         "title": "Final Version",
         "children": [
+          {
+            "container": {
+              "align_items": "center",
+              "button_text": "Link to my final prototype",
+              "button_url": "https://www.figma.com/proto/wUqsdbN2987sJiZ9N12oP4/GramCity-Design-Sprint?node-id=76%3A1433&page-id=76%3A1350&scaling=scale-down&viewport=536%2C328%2C0.3988124430179596"
+            }
+          },
           {
             "container": {
               "image": "../images/gramcity_finalversion.png"

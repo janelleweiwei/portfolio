@@ -14,7 +14,7 @@
               "children": [
                 {
                   "container": {
-                    "subtitle": "Project Type",
+                    "subtitle": "<b>Project Type</b>",
                     "messages": [
                       "Individual school project"
                     ]
@@ -22,7 +22,7 @@
                 },
                 {
                   "container": {
-                    "subtitle": "My Role",
+                    "subtitle": "<b>My Role</b>",
                     "messages": [
                       "Redesign branding; Redesign website; Create an E-menu"
                     ]
@@ -30,7 +30,7 @@
                 },
                 {
                   "container": {
-                    "subtitle": "Tools",
+                    "subtitle": "<b>Tools</b>",
                     "messages": [
                       "Figma, Illustrator, Photoshop"
                     ]
@@ -38,7 +38,7 @@
                 },
                 {
                   "container": {
-                    "subtitle": "Timeline",
+                    "subtitle": "<b>Timeline</b>",
                     "messages": [
                       "4 month (Jan 2019 - May 2019)"
                     ]
@@ -98,7 +98,26 @@
                 },
                 {
                   "container": {
-                    "messages": ["In Situ’s current website:-  Theme colors: gold and white.-  Logo: Artistic and modern font with dark brown color. -  Luxury and exclusivity interior design(table, chair, lighting, server credenza, lounge)- Animations on the home page."]
+                    "children": [
+                      {
+                        "container": {
+                          "messages": [
+                            "In Situ’s current website features:"
+                          ],
+                          "list": [
+                            "Theme colors: gold and white",
+                            "Logo: Artistic and modern font with dark brown color.",
+                            "Interior pictures: Images displayed on the home page."
+                          ]
+                        }
+                      },
+                      {
+                        "container": {
+                          "button_text": "Visit Insitu website",
+                          "button_url": "http://insitu.sfmoma.org/"
+                        }
+                      }
+                    ]
                   }
                 }
               ]
@@ -110,24 +129,47 @@
               "children": [
                 {
                   "container": {
-                    "image": "../images/insitu/richtable.png",
-                    "subtitle": "🍲 Rich Table",
-                    "messages": [
-                      "Clean and simple layout and design elements to convey the feel of its surrounding that is modern, convivial, and comfortable.",
-                      "- Theme colors: Red and black.",
-                      "- Theme colors: Red and black."
+                    "children": [
+                      {
+                        "container": {
+                          "image": "../images/insitu/richtable.png"
+                        }
+                      },
+                      {
+                        "container": {
+                          "subtitle": "🍲 <b>Rich Table</b>",
+                          "messages": [
+                            "Clean and simple layout and design elements to convey the feel of its surrounding that is modern, convivial, and comfortable."
+                          ],
+                          "list": [
+                            "Theme colors: Red and black.",
+                            "Logo: Square with round edges and simple text."
+                          ]
+                        }
+                      }
                     ]
                   }
                 },
                 {
                   "container": {
-                    "image": "../images/insitu/richtable2.png",
-                    "subtitle": " 🥞 State Bird Provisions",
-                    "messages": [
-                      "Urban-rustic storefront setting for a changing menu of American small plates served dim-sum style.",
-                      "- Theme colors: White, brown, red, and green.",
-                      "- Logo: Handwriting style font with a white outline with a hollow inside.",
-                      "- High-quality cooking"
+                    "children": [
+                      {
+                        "container": {
+                          "image": "../images/insitu/richtable2.png"
+                        }
+                      },
+                      {
+                        "container": {
+                          "subtitle": " 🥞 <b>State Bird Provisions</b>",
+                          "messages": [
+                            "Urban-rustic storefront setting for a changing menu of American small plates served dim-sum style."
+                          ],
+                          "list": [
+                            "Theme colors: White, brown, red, and green.",
+                            "Logo: Handwriting style font with a white outline with a hollow inside."
+                          ]
+                        }
+                      }
                     ]
                   }
                 }
@@ -140,43 +182,45 @@
     {
       "section": {
         "title": "Target Market",
+        "style": "text-align: center",
         "messages": [
-          "It is a corporate-run enterprise. The restaurant 🥘 is located in SFMOMA which is a modern and contemporary art museum located in San Francisco, California.)"
+          "The restaurant is located by San Francisco Museum of Modern Art (SFMOMA)."
         ],
         "children": [
           {
             "container": {
+              "style": "text-align: left",
               "direction": "row",
               "children": [
                 {
                   "container": {
-                    "subtitle": "Income",
+                    "subtitle": "<b>Income</b>",
                     "messages": [
-                      "Individual school project"
+                      "Middle to high-income level 💰"
                     ]
                   }
                 },
                 {
                   "container": {
-                    "subtitle": "Interests",
+                    "subtitle": "<b>Interests</b>",
                     "messages": [
-                      "Individual school project"
+                      "Most customers come to visit the museum, while others come for the indoor art atmosphere of the restaurant. 🖼️ "
                     ]
                   }
                 },
                 {
                   "container": {
-                    "subtitle": "Gender",
+                    "subtitle": "<b>Gender</b>",
                     "messages": [
-                      "Individual school project"
+                      "All gender + LGBT community 🏳️‍🌈"
                     ]
                   }
                 },
                 {
                   "container": {
-                    "subtitle": "Occupation",
+                    "subtitle": "<b>Occupation</b>",
                     "messages": [
-                      "4 month (Jan 2019 - May 2019)"
+                      "Customers are mostly with the art and technology background. They could be both locals and tourists. "
                     ]
                   }
                 }
@@ -206,9 +250,7 @@
               "align_items": "center",
               "messages": [
                 "In order to keep the restaurant with its usual premium feel and echo the interior design, I chose golden brown, black, and white as the main colors of the design.",
-                "Also, we have a lot of customers who like art, so I used vibrant green to give the design character and vibrancy.",
-                "This color scheme keeps the mystery and also makes customers appetite."
-              ]
+                "Since there are a lot of customers who are interested in art, I also added vibrant green to give the design a more vibrant and aesthetic feel."              ]
             }
           },
           {
@@ -220,23 +262,34 @@
           {
             "container": {
               "align_items": "center",
-              "subtitle": "Font",
+              "subtitle": "<b>Font</b>",
               "messages": [
-                "I chose the font for the logo and the title is Plantin MT; for the body is Helvetica."
+                "I chose <b>Plantin MT</b> as the font for logo and title; and <b>Helvetica</b> for body text."
               ]
             }
           },
           {
             "container": {
               "align_items": "center",
-              "subtitle": "Logo Design",
+              "subtitle": "<b>Logo Design</b>",
               "children": [
                 {
                   "container": {
-                    "image_style": "max-height: 400px;",
-                    "image": "../images/insitu/inspiration.png",
-                    "messages": [
-                      "I chose the font for the logo and the title is Plantin MT; for the body is Helvetica."
+                    "children": [
+                      {
+                        "container": {
+                          "style": "text-align: center",
+                          "messages": [
+                            "The logo design was inspired by a set of gouache paintings on a wall inside the restaurant."
+                          ]
+                        }
+                      },
+                      {
+                        "container": {
+                          "image_style": "max-height: 400px;",
+                          "image": "../images/insitu/inspiration.png"
+                        }
+                      }
                     ]
                   }
                 }
@@ -246,8 +299,13 @@
           {
             "container": {
               "align_items": "center",
-              "subtitle": "Logo Mockup",
               "children": [
+                {
+                  "container": {
+                    "style": "text-align: center",
+                    "subtitle": "<b>Logo Mockup</b>"
+                  }
+                },
                 {
                   "container": {
                     "image_style": "max-height: 400px;",
@@ -324,51 +382,66 @@
     {
       "section": {
         "title": "Advertising - Anywhere",
-        "direction": "row",
         "children": [
           {
             "container": {
-              "children": [
-                {
-                  "container": {
-                    "image_style": "max-width: 100%;",
-                    "image": "../images/insitu/ads1.png"
-                  }
-                },
-                {
-                  "container": {
-                    "image_style": "max-width: 100%;",
-                    "image": "../images/insitu/ads2.png"
-                  }
-                }
+              "style": "text-align: center",
+              "messages": [
+                "Advertising and marketing are an integral part of restaurant development.",
+                "I designed a number of posters that were placed on different platforms, such as websites, streets, bus stops, magazines, and so on."
               ]
             }
           },
           {
             "container": {
+              "direction": "row",
               "children": [
                 {
                   "container": {
-                    "image_style": "max-width: 100%;",
-                    "image": "../images/insitu/ads3.png"
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "container": {
-              "children": [
-                {
-                  "container": {
-                    "image_style": "max-width: 100%;",
-                    "image": "../images/insitu/ads4.png"
+                    "children": [
+                      {
+                        "container": {
+                          "image_style": "max-width: 100%;",
+                          "image": "../images/insitu/ads1.png"
+                        }
+                      },
+                      {
+                        "container": {
+                          "image_style": "max-width: 100%;",
+                          "image": "../images/insitu/ads2.png"
+                        }
+                      }
+                    ]
                   }
                 },
                 {
                   "container": {
-                    "image_style": "max-width: 100%;",
-                    "image": "../images/insitu/ads5.png"
+                    "children": [
+                      {
+                        "container": {
+                          "image_style": "max-width: 100%;",
+                          "image": "../images/insitu/ads3.png"
+                        }
+                      }
+                    ]
+                  }
+                },
+                {
+                  "container": {
+                    "children": [
+                      {
+                        "container": {
+                          "image_style": "max-width: 100%;",
+                          "image": "../images/insitu/ads4.png"
+                        }
+                      },
+                      {
+                        "container": {
+                          "image_style": "max-width: 100%;",
+                          "image": "../images/insitu/ads5.png"
+                        }
+                      }
+                    ]
                   }
                 }
               ]
@@ -382,11 +455,39 @@
         "style": "background-color:#C0A074",
         "theme_class": "dark",
         "align_items": "center",
-        "title": "Site Map"
+        "title": "E-menu",
+        "button_text": "Link to E-menu Prototype",
+        "button_url": "https://www.figma.com/proto/ay8yeJ09JKZcTkHHHDgWNc/%E3%80%80In-Situ---Menu?node-id=1%3A2&scaling=scale-down&viewport=241%2C385%2C0.5",
+        "button_background": "white",
+        "button_color": "black"
       }
     },
     {
       "section": {
+        "images": [
+          "../images/insitu/emenu1.png",
+          "../images/insitu/emenu2.png"
+        ],
+        "carousel_style": "full_width",
+        "carousel_height": "400px"
+      }
+    },
+    {
+      "section": {
+        "style": "background-color:#C0A074",
+        "theme_class": "dark",
+        "align_items": "center",
+        "title": "Website",
+        "button_text": "Link to Website Prototype",
+        "button_url": "https://www.figma.com/proto/22GN4C9BQuS9Cl8r13hCpW/In-Situ-Website?node-id=1%3A2&scaling=min-zoom&viewport=1171%2C144%2C0.25",
+        "button_background": "white",
+        "button_color": "black"
+      }
+    },
+    {
+      "section": {
+        "title": "Site Map",
+        "style": "text-align: center",
         "align_child_items": "center",
         "children": [
           {

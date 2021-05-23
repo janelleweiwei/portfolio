@@ -1,0 +1,235 @@
+{
+  "sections": [
+    {
+      "section": {
+        "children": [
+          {
+            "container": {
+              "align_items": "center",
+              "style": "text-align: center;",
+              "title": "Feather Website",
+              "messages": [
+                "Feather website is a UX design agency that helps clients turn ideas into reality. They are passionate about solving problems and bridging the gap between user needs and business strategy."
+              ],
+              "button_text": "Link to Feather Website",
+              "button_url": "https://www.janelleweiwei.org/aau/wnm618/wordpressapi/pge/home"
+            }
+          } 
+        ]
+      }
+    },
+    {
+      "section": {
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "subtitle": "My Role",
+              "messages": [
+                "Logo design",
+                "Website design",
+                "Coding",
+                "(Individual project)"
+              ]
+            }
+          },
+          {
+            "container": {
+              "subtitle": "Scope",
+              "messages": [
+                "Research",
+                "Design",
+                "Implementation",
+                "Development language",
+                "Database Management"
+              ]
+            }
+          },
+          {
+            "container": {
+              "subtitle": "Programming",
+              "messages": [
+                "JavaScript; HTML; CSS; PHP",
+                "MySQL",
+                "WordPress"
+              ]
+            }
+          },
+          {
+            "container": {
+              "subtitle": "Timeline",
+              "messages": [
+                "8/1/2020 - 12/20/2020",
+                "(4 months)"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color: #f7f7f7",
+        "title": "Project Timeline"
+      }
+    },
+    {
+      "section": {
+        "image": "../images/feather/process.png"
+      }
+    },
+    {
+      "section": {
+        "style": "background-color: #f7f7f7",
+        "title": "Overall"
+      }
+    },
+    {
+      "section": {
+        "children": [
+          {
+            "container": {
+              "subtitle": "Target Market",
+              "list": [
+                "Clients who need a full-service user experience (UX), UI design, and branding design.",
+                "Clients who want to see feather’s most updated blog content."
+              ]
+            }
+          },
+          {
+            "container": {
+              "subtitle": "Project Goals",
+              "list": [
+                "Business Goals: Help clients understand the feather’s concept, contact designers, and build a real-time update blog."
+              ]
+            }
+          },
+          {
+            "container": {
+              "image_style": "width: 650px;",
+              "image": "../images/feather/overall.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color: #f7f7f7",
+        "title": "Design and Inspiration"
+      }
+    },
+    {
+      "section": {
+        "children": [
+          {
+            "container": {
+              "subtitle": "Logo Design",
+              "list": [
+                "The design of the logo is inspired by feathers.",
+                "Font-family: Open Sans, Helvetica, and Arial."
+              ]
+            }
+          },
+          {
+            "container": {
+              "image_style": "width: 600px;",
+              "image": "../images/feather/logo.png"
+            }
+          },
+          {
+            "container": {
+              "subtitle": "Color Palette"
+            }
+          },
+          {
+            "container": {
+              "image_style": "width: 600px;",
+              "image": "../images/feather/colorpalette.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color: #f7f7f7",
+        "title": "Implementation",
+        "children": [
+          {
+            "container": {
+              "align_items": "center",
+              "button_text": "Link to Github",
+              "button_url": "https://github.com/janelleweiwei/wordpressapi"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "children": [
+          {
+            "container": {
+              "image": "../images/feather/php-img.png",
+              "subtitle": "PHP"
+            }
+          },
+          {
+            "container": {
+              "image": "../images/feather/js-img.png",
+              "subtitle": "JavaScript"
+            }
+          },
+          {
+            "container": {
+              "image": "../images/feather/css-img.png",
+              "subtitle": "CSS"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "title": "MySQL",
+        "children": [
+          {
+            "container": {
+              "image": "../images/feather/mysql.png"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "section": {
+        "style": "background-color: #f7f7f7",
+        "title": "Final Website"
+      }
+    },
+    {
+      "section": {
+        "style": "background-color: #f7f7f7",
+        "direction": "row",
+        "children": [
+          {
+            "container": {
+              "image": "../images/feather/website1.png"
+            }
+          },
+          {
+            "container": {
+              "image": "../images/feather/website2.png"
+            }
+          },
+          {
+            "container": {
+              "image": "../images/feather/website3.png"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
